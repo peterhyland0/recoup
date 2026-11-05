@@ -16,7 +16,7 @@ invented fee table, and no PHI.
 ## Results
 
 From `uv run recoup eval`, the same suite that gates every pull request. It covers 42
-contracts and 1,042 labeled remittance lines across four datasets. The model API spend
+contracts and 1,041 labeled remittance lines across four datasets. The model API spend
 is $0.
 
 | | full (20 contracts) | adversarial (8) | holdout (10) |
