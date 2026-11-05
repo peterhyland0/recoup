@@ -1,0 +1,79 @@
+name: deploy
+
+# Manual on purpose: a demo environment that costs money should start when someone means it.
+# Needs: AWS_DEPLOY_ROLE (terraform output deploy_role_arn) and AWS_REGION repository variables,
+# and the infrastructure applied once with `terraform apply`. No API key is baked into the
+# web image: the UI asks for one and keeps it in the browser tab's session only.
+
+on:
+  workflow_dispatch:
+
+permissions:
+  id-token: write # GitHub OIDC: short-lived AWS credentials, no stored keys
+  contents: read
+
+concurrency: deploy
+
+jobs:
+  deploy:
+    runs-on: ubuntu-24.04-arm # images run on Graviton, so build them natively
+    env:
+      AWS_REGION: ${{ vars.AWS_REGION }}
+      CLUSTER: recoup-demo
+      TAG: ${{ github.sha }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: aws-actions/configure-aws-credentials@v4
+        with:
+          role-to-assume: ${{ vars.AWS_DEPLOY_ROLE }}
+          aws-region: ${{ vars.AWS_REGION }}
+      - id: ecr
+        uses: aws-actions/amazon-ecr-login@v2
+
+      - name: Build and push images
+        env:
+          REGISTRY: ${{ steps.ecr.outputs.registry }}
+        run: |
+          # Tags are immutable: a re-run for the same commit reuses the images already pushed.
+          for name in app web; do
+            if aws ecr describe-images --repository-name "recoup-$name" --image-ids imageTag="$TAG" > /dev/null 2>&1; then
+              echo "recoup-$name:$TAG already pushed"; continue
+            fi
+            context=.; [ "$name" = web ] && context=web
+            docker build -t "$REGISTRY/recoup-$name:$TAG" --build-arg NEXT_PUBLIC_RECOUP_API=/api "$context"
+            docker push "$REGISTRY/recoup-$name:$TAG"
+          done
+
+      - name: Point every task definition at the new images
+        env:
+          REGISTRY: ${{ steps.ecr.outputs.registry }}
+        run: |
+          for family in api worker mocks web bootstrap; do
+            image="$REGISTRY/recoup-app:$TAG"; [ "$family" = web ] && image="$REGISTRY/recoup-web:$TAG"
+            aws ecs describe-task-definition --task-definition "recoup-demo-$family" \
+              --query taskDefinition > td.json
+            jq --arg image "$image" '.containerDefinitions[0].image = $image
+              | del(.taskDefinitionArn, .revision, .status, .requiresAttributes, .compatibilities, .registeredAt, .registeredBy)' \
+              td.json > new.json
+            aws ecs register-task-definition --cli-input-json file://new.json --query taskDefinition.taskDefinitionArn --output text > "arn-$family"
+          done
+
+      - name: Migrate (one-off task) before any service rolls
+        run: |
+          network=$(aws ecs describe-services --cluster "$CLUSTER" --services api \
+            --query 'services[0].networkConfiguration' --output json)
+          task=$(aws ecs run-task --cluster "$CLUSTER" --launch-type FARGATE \
+            --task-definition "$(cat arn-bootstrap)" --network-configuration "$network" \
+            --query 'tasks[0].taskArn' --output text)
+          aws ecs wait tasks-stopped --cluster "$CLUSTER" --tasks "$task"
+          code=$(aws ecs describe-tasks --cluster "$CLUSTER" --tasks "$task" \
+            --query 'tasks[0].containers[0].exitCode' --output text)
+          test "$code" = "0"
+
+      - name: Roll services (circuit breaker rolls back a failed deploy)
+        run: |
+          for service in api worker mocks web; do
+            aws ecs update-service --cluster "$CLUSTER" --service "$service" \
+              --task-definition "$(cat arn-$service)" > /dev/null
+          done
+          aws ecs wait services-stable --cluster "$CLUSTER" --services api worker mocks web

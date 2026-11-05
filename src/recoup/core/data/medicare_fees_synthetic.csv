@@ -1,0 +1,25 @@
+code,category,mpr_indicator,fee_2025,fee_2026
+99202,office visit new patient,0,71.40,73.10
+99203,office visit new patient,0,110.90,113.60
+99204,office visit new patient,0,165.30,169.40
+99205,office visit new patient,0,218.70,224.00
+99211,office visit established patient,0,23.20,23.80
+99212,office visit established patient,0,55.80,57.20
+99213,office visit established patient,0,90.10,92.30
+99214,office visit established patient,0,127.60,130.70
+99215,office visit established patient,0,179.40,183.80
+11042,debridement,2,118.50,121.30
+11102,skin biopsy,2,99.70,102.10
+17000,lesion destruction,2,64.30,65.90
+20610,joint injection major,2,62.80,64.30
+20611,joint injection major with guidance,2,96.20,98.50
+29881,knee arthroscopy,2,512.40,524.80
+29880,knee arthroscopy,2,541.10,554.20
+64483,spinal injection,2,232.50,238.10
+64484,spinal injection add-on,0,98.40,100.80
+71046,chest x-ray two views,0,30.80,31.60
+73030,shoulder x-ray,0,32.10,32.90
+73721,knee mri,0,212.60,217.80
+93000,electrocardiogram,0,16.90,17.30
+96372,therapeutic injection,0,15.40,15.80
+97110,therapeutic exercise,0,29.60,30.30

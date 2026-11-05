@@ -1,0 +1,74 @@
+name: ci
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  python:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v6
+        with:
+          enable-cache: true
+      - run: uv sync --locked --all-extras  # the claude extra too, so its module type-checks
+      - run: uv run ruff format --check .
+      - run: uv run ruff check .
+      - run: uv run mypy src
+      - run: uv run pytest
+
+  postgres:
+    runs-on: ubuntu-latest
+    services:
+      postgres:
+        image: postgres:16
+        env:
+          POSTGRES_PASSWORD: postgres
+          POSTGRES_DB: recoup_test
+        ports: ["5432:5432"]
+        options: >-
+          --health-cmd pg_isready --health-interval 5s --health-timeout 5s --health-retries 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v6
+      - run: uv sync --locked
+      - name: Migrations, row-level security and SKIP LOCKED against real Postgres
+        env:
+          RECOUP_TEST_POSTGRES_URL: postgresql+psycopg://postgres:postgres@localhost:5432/recoup_test
+          PGPASSWORD: postgres
+        run: |
+          psql -h localhost -U postgres -d recoup_test -c "CREATE ROLE recoup_app LOGIN PASSWORD 'postgres' NOSUPERUSER NOBYPASSRLS"
+          uv run pytest tests/test_postgres.py -v
+
+  datasets-are-reproducible:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v6
+      - run: uv sync --locked
+      - run: uv run recoup synth all
+      - name: Committed datasets match a fresh build byte for byte, new files included
+        run: |
+          git add -N datasets/
+          git diff --exit-code --stat -- datasets/
+
+  web:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: web
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: web/package-lock.json
+      - run: npm ci
+      - run: npm run lint
+      - run: npm run build

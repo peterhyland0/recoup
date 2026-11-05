@@ -1,0 +1,6 @@
+bucket       = "recoup-terraform-state-REPLACE"
+key          = "demo/terraform.tfstate"
+region       = "us-east-1"
+use_lockfile = true
+encrypt      = true
+# kms_key_id = "arn:aws:kms:..."  # state holds the generated DB passwords and API keys

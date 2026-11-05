@@ -1,0 +1,54 @@
+# The whole stack on one machine: docker compose up --build, then open http://localhost:3000
+services:
+  postgres:
+    image: postgres:16
+    environment:
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: recoup
+    healthcheck:
+      test: ["CMD", "pg_isready", "-U", "postgres"]
+      interval: 3s
+      retries: 20
+    ports: ["5432:5432"]
+
+  bootstrap:
+    build: .
+    command: ["sh", "-c", "recoup db-bootstrap && DATABASE_URL=$$APP_URL recoup seed datasets/full-image"]
+    environment:
+      DATABASE_URL: postgresql+psycopg://postgres:postgres@postgres:5432/recoup
+      APP_URL: postgresql+psycopg://recoup_app:recoup@postgres:5432/recoup
+      APP_DB_PASSWORD: recoup
+    volumes: ["./datasets/full:/app/datasets/full-image:ro"]
+    depends_on:
+      postgres: { condition: service_healthy }
+
+  mocks:
+    build: .
+    command: ["recoup", "mocks", "--host", "0.0.0.0", "--port", "8001", "--callback", "http://api:8000/webhooks/payer"]
+    ports: ["8001:8001"]
+
+  api:
+    build: .
+    environment: &app_env
+      DATABASE_URL: postgresql+psycopg://recoup_app:recoup@postgres:5432/recoup
+      RECOUP_MOCKS_URL: http://mocks:8001
+      RECOUP_TODAY: "2026-07-01"
+    ports: ["8000:8000"]
+    depends_on:
+      bootstrap: { condition: service_completed_successfully }
+
+  worker:
+    build: .
+    command: ["recoup", "worker"]
+    environment: *app_env
+    depends_on:
+      bootstrap: { condition: service_completed_successfully }
+
+  web:
+    build:
+      context: ./web
+      args:
+        NEXT_PUBLIC_RECOUP_API: http://localhost:8000
+        NEXT_PUBLIC_RECOUP_API_KEY: dev-key
+    ports: ["3000:3000"]
+    depends_on: [api]

@@ -1,0 +1,18 @@
+.venv/
+__pycache__/
+*.db
+*.db-shm
+*.db-wal
+recoup-checkpoints.db
+evals/latest.json
+eval.md
+eval.json
+web/node_modules/
+web/.next/
+.terraform/
+*.tfstate*
+
+# Terraform inputs with real values
+*.tfvars
+!*.tfvars.example
+backend.hcl

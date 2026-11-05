@@ -1,0 +1,115 @@
+name: evals
+
+# Every PR is scored against the baseline on the *base* branch, so a PR cannot pass by
+# lowering evals/baseline.json itself. The default extractor needs no API key: this costs $0.
+#
+# Labels (same-repository PRs only; forks get the gate and nothing else):
+#   bless-baseline   record new quality numbers. Safety metrics still gate, and the label
+#                    is removed after one use, so later pushes are gated normally again.
+#   eval-claude      also score the opt-in Claude extractor, if the ANTHROPIC_API_KEY
+#                    secret exists. Reported, never gated against the rules baseline.
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened, labeled]
+
+permissions:
+  contents: read
+
+jobs:
+  gate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pull-requests: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+      - uses: astral-sh/setup-uv@v6
+        with:
+          enable-cache: true
+      - run: uv sync --locked
+      - name: Rebuild datasets (must match the committed copies, new files included)
+        run: |
+          uv run recoup synth all
+          git add -N datasets/
+          git diff --exit-code --stat -- datasets/
+      - name: Baseline from the base branch
+        run: git show "origin/${{ github.base_ref }}:evals/baseline.json" > base-baseline.json || echo '{}' > base-baseline.json
+      - name: Score and gate
+        env:
+          BLESSING: ${{ contains(github.event.pull_request.labels.*.name, 'bless-baseline') }}
+        run: |
+          # With bless-baseline, quality metrics may move but safety metrics still fail the job.
+          if [ "$BLESSING" = "true" ]; then mode="--report-only --gate"; else mode="--gate"; fi
+          uv run recoup eval --baseline base-baseline.json $mode --markdown eval.md --report eval.json
+      - name: Comment on the PR
+        if: ${{ always() && hashFiles('eval.md') != '' }}
+        continue-on-error: true  # fork PRs get a read-only token; the job summary still has the table
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          cat eval.md >> "$GITHUB_STEP_SUMMARY"
+          gh pr comment ${{ github.event.pull_request.number }} --body-file eval.md
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: eval-report
+          path: eval.json
+
+  bless:
+    needs: gate
+    if: >-
+      contains(github.event.pull_request.labels.*.name, 'bless-baseline')
+      && github.event.pull_request.head.repo.full_name == github.repository
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.head_ref }}
+      - uses: astral-sh/setup-uv@v6
+      - run: uv sync --locked
+      - name: Write the new baseline (fails if any safety metric fails)
+        run: uv run recoup eval --bless --markdown bless.md
+      - name: Commit it and drop the label
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          git config user.name "recoup-evals"
+          git config user.email "recoup-evals@users.noreply.github.com"
+          git add evals/baseline.json
+          if ! git diff --cached --quiet; then
+            git commit -m "evals: bless new baseline"
+            git push
+          fi
+          gh pr edit ${{ github.event.pull_request.number }} --remove-label bless-baseline
+          # A push made with GITHUB_TOKEN starts no workflows, so re-run the checks on the new
+          # head before merging (or swap in a GitHub App token here).
+
+  claude:
+    needs: gate
+    if: >-
+      contains(github.event.pull_request.labels.*.name, 'eval-claude')
+      && github.event.pull_request.head.repo.full_name == github.repository
+    runs-on: ubuntu-latest
+    environment: model-evals  # a maintainer approves before the key meets PR code
+    env:
+      HAS_CLAUDE_KEY: ${{ secrets.ANTHROPIC_API_KEY != '' }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: astral-sh/setup-uv@v6
+      - run: uv sync --locked --extra claude
+      - name: Score the Claude extractor (reported only)
+        if: env.HAS_CLAUDE_KEY == 'true'
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          uv run recoup eval smoke holdout --extractor claude --report-only --markdown claude.md
+          cat claude.md >> "$GITHUB_STEP_SUMMARY"

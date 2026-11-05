@@ -1,0 +1,5274 @@
+{
+  "contracts": {
+    "HM-2026-002": {
+      "citations": {
+        "appeal_window_days": [
+          [
+            1,
+            17
+          ]
+        ],
+        "contract_id": [
+          [
+            1,
+            3
+          ]
+        ],
+        "effective_date": [
+          [
+            1,
+            5
+          ]
+        ],
+        "end_date": [
+          [
+            1,
+            6
+          ]
+        ],
+        "fee_schedule.11102": [
+          [
+            1,
+            20
+          ]
+        ],
+        "fee_schedule.29880": [
+          [
+            1,
+            21
+          ]
+        ],
+        "fee_schedule.93000": [
+          [
+            1,
+            22
+          ]
+        ],
+        "fee_schedule.99204": [
+          [
+            1,
+            23
+          ]
+        ],
+        "fee_schedule.99214": [
+          [
+            1,
+            24
+          ]
+        ],
+        "medicare_year": [
+          [
+            1,
+            8
+          ],
+          [
+            1,
+            9
+          ]
+        ],
+        "modifier.50": [
+          [
+            1,
+            12
+          ]
+        ],
+        "modifier.80": [
+          [
+            1,
+            13
+          ]
+        ],
+        "mpr_secondary_pct": [
+          [
+            1,
+            10
+          ]
+        ],
+        "payer_name": [
+          [
+            1,
+            2
+          ]
+        ],
+        "pct_medicare": [
+          [
+            1,
+            8
+          ],
+          [
+            1,
+            9
+          ]
+        ],
+        "provider_npi": [
+          [
+            1,
+            4
+          ]
+        ],
+        "timely_filing_days": [
+          [
+            1,
+            15
+          ]
+        ]
+      },
+      "contract": {
+        "amendments": [],
+        "contract_id": "HM-2026-002",
+        "effective_date": "2026-01-01",
+        "end_date": "2026-12-31",
+        "payer_id": "71320",
+        "payer_name": "Harborview Mutual",
+        "provider_npi": "1092674104",
+        "terms": {
+          "appeal_window_days": 120,
+          "carve_outs": {},
+          "fee_schedule": {
+            "11102": "112.31",
+            "29880": "798.05",
+            "93000": "19.38",
+            "99204": "186.34",
+            "99214": "167.30"
+          },
+          "lesser_of_billed": false,
+          "medicare_year": 2026,
+          "modifiers": {
+            "50": "1.75",
+            "80": "0.16"
+          },
+          "mpr_secondary_pct": "0.75",
+          "pct_medicare": "1.40",
+          "timely_filing_days": 180
+        }
+      },
+      "decoy_lines": [],
+      "injection_lines": [],
+      "pack": "B",
+      "pdf": "contracts/HM-2026-002.pdf",
+      "practice": "Flatiron Dermatology Group",
+      "remits": [
+        "remits/HM-2026-002-20260227.835",
+        "remits/HM-2026-002-20260403.835",
+        "remits/HM-2026-002-20260501.835",
+        "remits/HM-2026-002-20260508.835",
+        "remits/HM-2026-002-20260821.835",
+        "remits/HM-2026-002-20261030.835",
+        "remits/HM-2026-002-20261106.835",
+        "remits/HM-2026-002-20261218.835",
+        "remits/HM-2026-002-20270416.835",
+        "remits/HM-2026-002-20270514.835"
+      ],
+      "variant": "clean"
+    },
+    "HM-2026-006": {
+      "citations": {
+        "appeal_window_days": [
+          [
+            1,
+            8
+          ]
+        ],
+        "carve_out.17000": [
+          [
+            1,
+            10
+          ]
+        ],
+        "contract_id": [
+          [
+            1,
+            3
+          ]
+        ],
+        "effective_date": [
+          [
+            1,
+            5
+          ]
+        ],
+        "end_date": [
+          [
+            1,
+            6
+          ]
+        ],
+        "fee_schedule.11102": [
+          [
+            1,
+            28
+          ]
+        ],
+        "fee_schedule.29880": [
+          [
+            1,
+            29
+          ]
+        ],
+        "fee_schedule.71046": [
+          [
+            1,
+            30
+          ]
+        ],
+        "fee_schedule.96372": [
+          [
+            1,
+            31
+          ]
+        ],
+        "fee_schedule.99204": [
+          [
+            1,
+            32
+          ]
+        ],
+        "fee_schedule.99205": [
+          [
+            1,
+            33
+          ]
+        ],
+        "fee_schedule.99214": [
+          [
+            1,
+            34
+          ]
+        ],
+        "lesser_of_billed": [
+          [
+            1,
+            19
+          ]
+        ],
+        "medicare_year": [
+          [
+            1,
+            17
+          ],
+          [
+            1,
+            18
+          ]
+        ],
+        "modifier.50": [
+          [
+            1,
+            12
+          ]
+        ],
+        "modifier.52": [
+          [
+            1,
+            13
+          ]
+        ],
+        "mpr_secondary_pct": [
+          [
+            1,
+            20
+          ]
+        ],
+        "payer_name": [
+          [
+            1,
+            2
+          ]
+        ],
+        "pct_medicare": [
+          [
+            1,
+            17
+          ],
+          [
+            1,
+            18
+          ]
+        ],
+        "provider_npi": [
+          [
+            1,
+            4
+          ]
+        ],
+        "timely_filing_days": [
+          [
+            1,
+            15
+          ]
+        ]
+      },
+      "contract": {
+        "amendments": [],
+        "contract_id": "HM-2026-006",
+        "effective_date": "2026-01-01",
+        "end_date": "2026-12-31",
+        "payer_id": "71320",
+        "payer_name": "Harborview Mutual",
+        "provider_npi": "1387865367",
+        "terms": {
+          "appeal_window_days": 120,
+          "carve_outs": {
+            "17000": {
+              "mpr_exempt": true,
+              "rate": "76.44"
+            }
+          },
+          "fee_schedule": {
+            "11102": "148.05",
+            "29880": "742.63",
+            "71046": "32.23",
+            "96372": "18.49",
+            "99204": "186.34",
+            "99205": "239.68",
+            "99214": "171.22"
+          },
+          "lesser_of_billed": true,
+          "medicare_year": 2026,
+          "modifiers": {
+            "50": "1.50",
+            "52": "0.50"
+          },
+          "mpr_secondary_pct": "0.50",
+          "pct_medicare": "1.10",
+          "timely_filing_days": 180
+        }
+      },
+      "decoy_lines": [
+        [
+          1,
+          22
+        ],
+        [
+          1,
+          23
+        ],
+        [
+          1,
+          24
+        ],
+        [
+          1,
+          25
+        ]
+      ],
+      "injection_lines": [],
+      "pack": "B",
+      "pdf": "contracts/HM-2026-006.pdf",
+      "practice": "Inwood Primary Care",
+      "remits": [
+        "remits/HM-2026-006-20260220.835",
+        "remits/HM-2026-006-20260227.835",
+        "remits/HM-2026-006-20260501.835",
+        "remits/HM-2026-006-20260508.835",
+        "remits/HM-2026-006-20260814.835",
+        "remits/HM-2026-006-20260904.835",
+        "remits/HM-2026-006-20260918.835",
+        "remits/HM-2026-006-20261002.835",
+        "remits/HM-2026-006-20261218.835"
+      ],
+      "variant": "messy"
+    },
+    "HM-2026-010": {
+      "citations": {
+        "appeal_window_days": [
+          [
+            1,
+            13
+          ],
+          [
+            1,
+            14
+          ]
+        ],
+        "contract_id": [
+          [
+            1,
+            4
+          ]
+        ],
+        "effective_date": [
+          [
+            1,
+            6
+          ]
+        ],
+        "end_date": [
+          [
+            1,
+            7
+          ]
+        ],
+        "fee_schedule.11042": [
+          [
+            1,
+            28
+          ]
+        ],
+        "fee_schedule.11102": [
+          [
+            1,
+            29
+          ]
+        ],
+        "fee_schedule.29880": [
+          [
+            1,
+            30
+          ]
+        ],
+        "fee_schedule.73030": [
+          [
+            1,
+            31
+          ]
+        ],
+        "fee_schedule.99212": [
+          [
+            1,
+            32
+          ]
+        ],
+        "fee_schedule.99213": [
+          [
+            1,
+            33
+          ]
+        ],
+        "fee_schedule.99214": [
+          [
+            1,
+            34
+          ]
+        ],
+        "medicare_year": [
+          [
+            1,
+            9
+          ],
+          [
+            1,
+            10
+          ]
+        ],
+        "modifier.50": [
+          [
+            1,
+            16
+          ]
+        ],
+        "modifier.52": [
+          [
+            1,
+            17
+          ]
+        ],
+        "modifier.80": [
+          [
+            1,
+            18
+          ]
+        ],
+        "mpr_secondary_pct": [
+          [
+            1,
+            11
+          ]
+        ],
+        "payer_name": [
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ]
+        ],
+        "pct_medicare": [
+          [
+            1,
+            9
+          ],
+          [
+            1,
+            10
+          ]
+        ],
+        "provider_npi": [
+          [
+            1,
+            5
+          ]
+        ],
+        "timely_filing_days": [
+          [
+            1,
+            20
+          ]
+        ]
+      },
+      "contract": {
+        "amendments": [],
+        "contract_id": "HM-2026-010",
+        "effective_date": "2026-01-01",
+        "end_date": "2026-12-31",
+        "payer_id": "71320",
+        "payer_name": "Harborview Mutual",
+        "provider_npi": "1631908096",
+        "terms": {
+          "appeal_window_days": 180,
+          "carve_outs": {},
+          "fee_schedule": {
+            "11042": "140.71",
+            "11102": "111.29",
+            "29880": "886.72",
+            "73030": "51.65",
+            "99212": "60.63",
+            "99213": "124.61",
+            "99214": "198.66"
+          },
+          "lesser_of_billed": false,
+          "medicare_year": 2026,
+          "modifiers": {
+            "50": "1.50",
+            "52": "0.50",
+            "80": "0.16"
+          },
+          "mpr_secondary_pct": "0.75",
+          "pct_medicare": "1.40",
+          "timely_filing_days": 180
+        }
+      },
+      "decoy_lines": [
+        [
+          1,
+          22
+        ],
+        [
+          1,
+          23
+        ],
+        [
+          1,
+          24
+        ],
+        [
+          1,
+          25
+        ]
+      ],
+      "injection_lines": [],
+      "pack": "B",
+      "pdf": "contracts/HM-2026-010.pdf",
+      "practice": "Flatiron Dermatology Group",
+      "remits": [
+        "remits/HM-2026-010-20260501.835",
+        "remits/HM-2026-010-20260612.835",
+        "remits/HM-2026-010-20260724.835",
+        "remits/HM-2026-010-20260807.835",
+        "remits/HM-2026-010-20260821.835",
+        "remits/HM-2026-010-20260904.835",
+        "remits/HM-2026-010-20261211.835"
+      ],
+      "variant": "scanned"
+    },
+    "KB-2026-003": {
+      "citations": {
+        "amendment.A1.effective_date": [
+          [
+            1,
+            33
+          ]
+        ],
+        "amendment.A1.pct_medicare": [
+          [
+            1,
+            34
+          ]
+        ],
+        "appeal_window_days": [
+          [
+            1,
+            21
+          ]
+        ],
+        "carve_out.20611": [
+          [
+            1,
+            17
+          ]
+        ],
+        "contract_id": [
+          [
+            1,
+            3
+          ]
+        ],
+        "effective_date": [
+          [
+            1,
+            5
+          ]
+        ],
+        "end_date": [
+          [
+            1,
+            6
+          ]
+        ],
+        "fee_schedule.17000": [
+          [
+            1,
+            24
+          ]
+        ],
+        "fee_schedule.29880": [
+          [
+            1,
+            25
+          ]
+        ],
+        "fee_schedule.93000": [
+          [
+            1,
+            26
+          ]
+        ],
+        "fee_schedule.96372": [
+          [
+            1,
+            27
+          ]
+        ],
+        "fee_schedule.97110": [
+          [
+            1,
+            28
+          ]
+        ],
+        "fee_schedule.99212": [
+          [
+            1,
+            29
+          ]
+        ],
+        "fee_schedule.99213": [
+          [
+            1,
+            30
+          ]
+        ],
+        "fee_schedule.99215": [
+          [
+            1,
+            31
+          ]
+        ],
+        "lesser_of_billed": [
+          [
+            1,
+            10
+          ]
+        ],
+        "medicare_year": [
+          [
+            1,
+            8
+          ],
+          [
+            1,
+            9
+          ]
+        ],
+        "modifier.50": [
+          [
+            1,
+            13
+          ]
+        ],
+        "modifier.52": [
+          [
+            1,
+            14
+          ]
+        ],
+        "modifier.80": [
+          [
+            1,
+            15
+          ]
+        ],
+        "mpr_secondary_pct": [
+          [
+            1,
+            11
+          ]
+        ],
+        "payer_name": [
+          [
+            1,
+            2
+          ]
+        ],
+        "pct_medicare": [
+          [
+            1,
+            8
+          ],
+          [
+            1,
+            9
+          ]
+        ],
+        "provider_npi": [
+          [
+            1,
+            4
+          ]
+        ],
+        "timely_filing_days": [
+          [
+            1,
+            19
+          ]
+        ]
+      },
+      "contract": {
+        "amendments": [
+          {
+            "amendment_id": "A1",
+            "effective_date": "2026-07-01",
+            "patch": {
+              "appeal_window_days": null,
+              "carve_outs": {},
+              "fee_schedule": {},
+              "lesser_of_billed": null,
+              "medicare_year": null,
+              "modifiers": {},
+              "mpr_secondary_pct": null,
+              "pct_medicare": "1.20",
+              "timely_filing_days": null,
+              "unset": []
+            }
+          }
+        ],
+        "contract_id": "KB-2026-003",
+        "effective_date": "2026-01-01",
+        "end_date": "2026-12-31",
+        "payer_id": "38811",
+        "payer_name": "Keystone Benefit Co",
+        "provider_npi": "1614424475",
+        "terms": {
+          "appeal_window_days": 180,
+          "carve_outs": {
+            "20611": {
+              "mpr_exempt": true,
+              "rate": "117.22"
+            }
+          },
+          "fee_schedule": {
+            "17000": "87.65",
+            "29880": "792.51",
+            "93000": "20.59",
+            "96372": "23.70",
+            "97110": "39.09",
+            "99212": "90.95",
+            "99213": "107.99",
+            "99215": "224.24"
+          },
+          "lesser_of_billed": true,
+          "medicare_year": 2026,
+          "modifiers": {
+            "50": "1.25",
+            "52": "0.50",
+            "80": "0.16"
+          },
+          "mpr_secondary_pct": "0.60",
+          "pct_medicare": "1.25",
+          "timely_filing_days": 120
+        }
+      },
+      "decoy_lines": [],
+      "injection_lines": [],
+      "pack": "B",
+      "pdf": "contracts/KB-2026-003.pdf",
+      "practice": "Astoria Sports Medicine",
+      "remits": [
+        "remits/KB-2026-003-20260403.835",
+        "remits/KB-2026-003-20260417.835",
+        "remits/KB-2026-003-20260605.835",
+        "remits/KB-2026-003-20260612.835",
+        "remits/KB-2026-003-20260807.835",
+        "remits/KB-2026-003-20260911.835",
+        "remits/KB-2026-003-20261009.835",
+        "remits/KB-2026-003-20261106.835",
+        "remits/KB-2026-003-20261204.835"
+      ],
+      "variant": "clean"
+    },
+    "KB-2026-007": {
+      "citations": {
+        "amendment.A1.effective_date": [
+          [
+            1,
+            35
+          ]
+        ],
+        "amendment.A1.pct_medicare": [
+          [
+            1,
+            36
+          ]
+        ],
+        "amendment.A2.effective_date": [
+          [
+            2,
+            2
+          ]
+        ],
+        "amendment.A2.pct_medicare": [
+          [
+            2,
+            3
+          ]
+        ],
+        "appeal_window_days": [
+          [
+            1,
+            14
+          ]
+        ],
+        "carve_out.29880": [
+          [
+            1,
+            21
+          ]
+        ],
+        "contract_id": [
+          [
+            1,
+            3
+          ]
+        ],
+        "effective_date": [
+          [
+            1,
+            5
+          ]
+        ],
+        "end_date": [
+          [
+            1,
+            6
+          ]
+        ],
+        "fee_schedule.11102": [
+          [
+            1,
+            29
+          ]
+        ],
+        "fee_schedule.17000": [
+          [
+            1,
+            30
+          ]
+        ],
+        "fee_schedule.20611": [
+          [
+            1,
+            31
+          ]
+        ],
+        "fee_schedule.73030": [
+          [
+            1,
+            32
+          ]
+        ],
+        "fee_schedule.93000": [
+          [
+            1,
+            33
+          ]
+        ],
+        "lesser_of_billed": [
+          [
+            1,
+            18
+          ]
+        ],
+        "medicare_year": [
+          [
+            1,
+            16
+          ],
+          [
+            1,
+            17
+          ]
+        ],
+        "modifier.50": [
+          [
+            1,
+            10
+          ]
+        ],
+        "modifier.52": [
+          [
+            1,
+            11
+          ]
+        ],
+        "modifier.80": [
+          [
+            1,
+            12
+          ]
+        ],
+        "mpr_secondary_pct": [
+          [
+            1,
+            19
+          ]
+        ],
+        "payer_name": [
+          [
+            1,
+            2
+          ]
+        ],
+        "pct_medicare": [
+          [
+            1,
+            16
+          ],
+          [
+            1,
+            17
+          ]
+        ],
+        "provider_npi": [
+          [
+            1,
+            4
+          ]
+        ],
+        "timely_filing_days": [
+          [
+            1,
+            8
+          ]
+        ]
+      },
+      "contract": {
+        "amendments": [
+          {
+            "amendment_id": "A1",
+            "effective_date": "2026-04-01",
+            "patch": {
+              "appeal_window_days": null,
+              "carve_outs": {},
+              "fee_schedule": {},
+              "lesser_of_billed": null,
+              "medicare_year": null,
+              "modifiers": {},
+              "mpr_secondary_pct": null,
+              "pct_medicare": "1.20",
+              "timely_filing_days": null,
+              "unset": []
+            }
+          },
+          {
+            "amendment_id": "A2",
+            "effective_date": "2026-08-01",
+            "patch": {
+              "appeal_window_days": null,
+              "carve_outs": {},
+              "fee_schedule": {},
+              "lesser_of_billed": null,
+              "medicare_year": null,
+              "modifiers": {},
+              "mpr_secondary_pct": null,
+              "pct_medicare": "1.30",
+              "timely_filing_days": null,
+              "unset": []
+            }
+          }
+        ],
+        "contract_id": "KB-2026-007",
+        "effective_date": "2026-01-01",
+        "end_date": "2026-12-31",
+        "payer_id": "38811",
+        "payer_name": "Keystone Benefit Co",
+        "provider_npi": "1706368358",
+        "terms": {
+          "appeal_window_days": 60,
+          "carve_outs": {
+            "29880": {
+              "mpr_exempt": true,
+              "rate": "803.59"
+            }
+          },
+          "fee_schedule": {
+            "11102": "110.27",
+            "17000": "71.17",
+            "20611": "121.16",
+            "73030": "50.67",
+            "93000": "21.11"
+          },
+          "lesser_of_billed": true,
+          "medicare_year": 2026,
+          "modifiers": {
+            "50": "1.50",
+            "52": "0.50",
+            "80": "0.16"
+          },
+          "mpr_secondary_pct": null,
+          "pct_medicare": "1.25",
+          "timely_filing_days": 180
+        }
+      },
+      "decoy_lines": [
+        [
+          1,
+          23
+        ],
+        [
+          1,
+          24
+        ],
+        [
+          1,
+          25
+        ],
+        [
+          1,
+          26
+        ]
+      ],
+      "injection_lines": [],
+      "pack": "B",
+      "pdf": "contracts/KB-2026-007.pdf",
+      "practice": "Hudson Orthopedic Associates",
+      "remits": [
+        "remits/KB-2026-007-20260220.835",
+        "remits/KB-2026-007-20260320.835",
+        "remits/KB-2026-007-20260327.835",
+        "remits/KB-2026-007-20260522.835",
+        "remits/KB-2026-007-20260612.835",
+        "remits/KB-2026-007-20261002.835",
+        "remits/KB-2026-007-20261016.835",
+        "remits/KB-2026-007-20261106.835",
+        "remits/KB-2026-007-20261211.835"
+      ],
+      "variant": "messy"
+    },
+    "LC-2026-004": {
+      "citations": {
+        "amendment.A1.effective_date": [
+          [
+            1,
+            31
+          ]
+        ],
+        "amendment.A1.modifier.50": [
+          [
+            1,
+            32
+          ]
+        ],
+        "appeal_window_days": [
+          [
+            1,
+            12
+          ]
+        ],
+        "contract_id": [
+          [
+            1,
+            3
+          ]
+        ],
+        "effective_date": [
+          [
+            1,
+            5
+          ]
+        ],
+        "end_date": [
+          [
+            1,
+            6
+          ]
+        ],
+        "fee_schedule.17000": [
+          [
+            1,
+            27
+          ]
+        ],
+        "fee_schedule.99204": [
+          [
+            1,
+            28
+          ]
+        ],
+        "fee_schedule.99214": [
+          [
+            1,
+            29
+          ]
+        ],
+        "lesser_of_billed": [
+          [
+            1,
+            18
+          ]
+        ],
+        "medicare_year": [
+          [
+            1,
+            16
+          ],
+          [
+            1,
+            17
+          ]
+        ],
+        "modifier.50": [
+          [
+            1,
+            8
+          ]
+        ],
+        "modifier.52": [
+          [
+            1,
+            9
+          ]
+        ],
+        "modifier.80": [
+          [
+            1,
+            10
+          ]
+        ],
+        "mpr_secondary_pct": [
+          [
+            1,
+            19
+          ]
+        ],
+        "payer_name": [
+          [
+            1,
+            2
+          ]
+        ],
+        "pct_medicare": [
+          [
+            1,
+            16
+          ],
+          [
+            1,
+            17
+          ]
+        ],
+        "provider_npi": [
+          [
+            1,
+            4
+          ]
+        ],
+        "timely_filing_days": [
+          [
+            1,
+            14
+          ]
+        ]
+      },
+      "contract": {
+        "amendments": [
+          {
+            "amendment_id": "A1",
+            "effective_date": "2026-06-01",
+            "patch": {
+              "appeal_window_days": null,
+              "carve_outs": {},
+              "fee_schedule": {},
+              "lesser_of_billed": null,
+              "medicare_year": null,
+              "modifiers": {
+                "50": "1.50"
+              },
+              "mpr_secondary_pct": null,
+              "pct_medicare": null,
+              "timely_filing_days": null,
+              "unset": []
+            }
+          }
+        ],
+        "contract_id": "LC-2026-004",
+        "effective_date": "2026-01-01",
+        "end_date": "2026-12-31",
+        "payer_id": "52007",
+        "payer_name": "Lakeside Care Alliance",
+        "provider_npi": "1515403941",
+        "terms": {
+          "appeal_window_days": 180,
+          "carve_outs": {},
+          "fee_schedule": {
+            "17000": "90.28",
+            "99204": "232.08",
+            "99214": "159.45"
+          },
+          "lesser_of_billed": true,
+          "medicare_year": 2026,
+          "modifiers": {
+            "50": "1.25",
+            "52": "0.50",
+            "80": "0.16"
+          },
+          "mpr_secondary_pct": "0.50",
+          "pct_medicare": "1.30",
+          "timely_filing_days": 365
+        }
+      },
+      "decoy_lines": [
+        [
+          1,
+          21
+        ],
+        [
+          1,
+          22
+        ],
+        [
+          1,
+          23
+        ],
+        [
+          1,
+          24
+        ]
+      ],
+      "injection_lines": [],
+      "pack": "B",
+      "pdf": "contracts/LC-2026-004.pdf",
+      "practice": "Bowery Pain and Spine",
+      "remits": [
+        "remits/LC-2026-004-20260306.835",
+        "remits/LC-2026-004-20260313.835",
+        "remits/LC-2026-004-20260724.835",
+        "remits/LC-2026-004-20260731.835",
+        "remits/LC-2026-004-20260814.835",
+        "remits/LC-2026-004-20260904.835",
+        "remits/LC-2026-004-20261002.835",
+        "remits/LC-2026-004-20261016.835",
+        "remits/LC-2026-004-20261204.835",
+        "remits/LC-2026-004-20271029.835"
+      ],
+      "variant": "messy"
+    },
+    "LC-2026-008": {
+      "citations": {
+        "amendment.A1.effective_date": [
+          [
+            2,
+            2
+          ]
+        ],
+        "amendment.A1.fee_schedule.20611": [
+          [
+            2,
+            3
+          ]
+        ],
+        "amendment.A1.fee_schedule.99205": [
+          [
+            2,
+            4
+          ]
+        ],
+        "amendment.A1.fee_schedule.99211": [
+          [
+            2,
+            5
+          ]
+        ],
+        "appeal_window_days": [
+          [
+            1,
+            16
+          ],
+          [
+            1,
+            17
+          ]
+        ],
+        "carve_out.29880": [
+          [
+            1,
+            9
+          ]
+        ],
+        "contract_id": [
+          [
+            1,
+            4
+          ]
+        ],
+        "effective_date": [
+          [
+            1,
+            6
+          ]
+        ],
+        "end_date": [
+          [
+            1,
+            7
+          ]
+        ],
+        "fee_schedule.11102": [
+          [
+            1,
+            32
+          ]
+        ],
+        "fee_schedule.20610": [
+          [
+            1,
+            33
+          ]
+        ],
+        "fee_schedule.73721": [
+          [
+            1,
+            34
+          ]
+        ],
+        "fee_schedule.99205": [
+          [
+            1,
+            35
+          ]
+        ],
+        "fee_schedule.99211": [
+          [
+            1,
+            36
+          ]
+        ],
+        "medicare_year": [
+          [
+            1,
+            11
+          ],
+          [
+            1,
+            12
+          ]
+        ],
+        "modifier.50": [
+          [
+            1,
+            21
+          ]
+        ],
+        "modifier.52": [
+          [
+            1,
+            22
+          ]
+        ],
+        "modifier.80": [
+          [
+            1,
+            23
+          ]
+        ],
+        "mpr_secondary_pct": [
+          [
+            1,
+            13
+          ],
+          [
+            1,
+            14
+          ]
+        ],
+        "payer_name": [
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ]
+        ],
+        "pct_medicare": [
+          [
+            1,
+            11
+          ],
+          [
+            1,
+            12
+          ]
+        ],
+        "provider_npi": [
+          [
+            1,
+            5
+          ]
+        ],
+        "timely_filing_days": [
+          [
+            1,
+            19
+          ]
+        ]
+      },
+      "contract": {
+        "amendments": [
+          {
+            "amendment_id": "A1",
+            "effective_date": "2026-05-01",
+            "patch": {
+              "appeal_window_days": null,
+              "carve_outs": {},
+              "fee_schedule": {
+                "20611": "142.83",
+                "99205": "363.28",
+                "99211": "34.57"
+              },
+              "lesser_of_billed": null,
+              "medicare_year": null,
+              "modifiers": {},
+              "mpr_secondary_pct": null,
+              "pct_medicare": null,
+              "timely_filing_days": null,
+              "unset": []
+            }
+          }
+        ],
+        "contract_id": "LC-2026-008",
+        "effective_date": "2026-01-01",
+        "end_date": "2026-12-31",
+        "payer_id": "52007",
+        "payer_name": "Lakeside Care Alliance",
+        "provider_npi": "1682093459",
+        "terms": {
+          "appeal_window_days": 60,
+          "carve_outs": {
+            "29880": {
+              "mpr_exempt": true,
+              "rate": "609.62"
+            }
+          },
+          "fee_schedule": {
+            "11102": "108.23",
+            "20610": "79.09",
+            "73721": "272.25",
+            "99205": "342.72",
+            "99211": "32.61"
+          },
+          "lesser_of_billed": false,
+          "medicare_year": 2026,
+          "modifiers": {
+            "50": "1.25",
+            "52": "0.50",
+            "80": "0.16"
+          },
+          "mpr_secondary_pct": "0.75",
+          "pct_medicare": "1.25",
+          "timely_filing_days": 365
+        }
+      },
+      "decoy_lines": [
+        [
+          1,
+          25
+        ],
+        [
+          1,
+          26
+        ],
+        [
+          1,
+          27
+        ],
+        [
+          1,
+          28
+        ],
+        [
+          1,
+          29
+        ]
+      ],
+      "injection_lines": [],
+      "pack": "B",
+      "pdf": "contracts/LC-2026-008.pdf",
+      "practice": "Astoria Sports Medicine",
+      "remits": [
+        "remits/LC-2026-008-20260213.835",
+        "remits/LC-2026-008-20260227.835",
+        "remits/LC-2026-008-20260424.835",
+        "remits/LC-2026-008-20260515.835",
+        "remits/LC-2026-008-20260529.835",
+        "remits/LC-2026-008-20260821.835",
+        "remits/LC-2026-008-20260828.835",
+        "remits/LC-2026-008-20260918.835",
+        "remits/LC-2026-008-20261016.835",
+        "remits/LC-2026-008-20261218.835"
+      ],
+      "variant": "scanned"
+    },
+    "NW-2026-001": {
+      "citations": {
+        "appeal_window_days": [
+          [
+            1,
+            18
+          ]
+        ],
+        "contract_id": [
+          [
+            1,
+            3
+          ]
+        ],
+        "effective_date": [
+          [
+            1,
+            5
+          ]
+        ],
+        "end_date": [
+          [
+            1,
+            6
+          ]
+        ],
+        "fee_schedule.11102": [
+          [
+            1,
+            21
+          ]
+        ],
+        "fee_schedule.73721": [
+          [
+            1,
+            22
+          ]
+        ],
+        "fee_schedule.99202": [
+          [
+            1,
+            23
+          ]
+        ],
+        "lesser_of_billed": [
+          [
+            1,
+            10
+          ]
+        ],
+        "medicare_year": [
+          [
+            1,
+            8
+          ],
+          [
+            1,
+            9
+          ]
+        ],
+        "modifier.50": [
+          [
+            1,
+            13
+          ]
+        ],
+        "modifier.80": [
+          [
+            1,
+            14
+          ]
+        ],
+        "mpr_secondary_pct": [
+          [
+            1,
+            11
+          ]
+        ],
+        "payer_name": [
+          [
+            1,
+            2
+          ]
+        ],
+        "pct_medicare": [
+          [
+            1,
+            8
+          ],
+          [
+            1,
+            9
+          ]
+        ],
+        "provider_npi": [
+          [
+            1,
+            4
+          ]
+        ],
+        "timely_filing_days": [
+          [
+            1,
+            16
+          ]
+        ]
+      },
+      "contract": {
+        "amendments": [],
+        "contract_id": "NW-2026-001",
+        "effective_date": "2026-01-01",
+        "end_date": "2026-12-31",
+        "payer_id": "60054",
+        "payer_name": "Northwind Health Plan",
+        "provider_npi": "1223470588",
+        "terms": {
+          "appeal_window_days": 60,
+          "carve_outs": {},
+          "fee_schedule": {
+            "11102": "111.29",
+            "73721": "246.11",
+            "99202": "115.50"
+          },
+          "lesser_of_billed": true,
+          "medicare_year": 2026,
+          "modifiers": {
+            "50": "1.50",
+            "80": "0.16"
+          },
+          "mpr_secondary_pct": null,
+          "pct_medicare": "1.20",
+          "timely_filing_days": 120
+        }
+      },
+      "decoy_lines": [],
+      "injection_lines": [],
+      "pack": "B",
+      "pdf": "contracts/NW-2026-001.pdf",
+      "practice": "Hudson Orthopedic Associates",
+      "remits": [
+        "remits/NW-2026-001-20260320.835",
+        "remits/NW-2026-001-20260327.835",
+        "remits/NW-2026-001-20260410.835",
+        "remits/NW-2026-001-20260501.835",
+        "remits/NW-2026-001-20260612.835",
+        "remits/NW-2026-001-20260710.835",
+        "remits/NW-2026-001-20260821.835",
+        "remits/NW-2026-001-20261002.835"
+      ],
+      "variant": "clean"
+    },
+    "NW-2026-005": {
+      "citations": {
+        "amendment.A1.effective_date": [
+          [
+            1,
+            34
+          ]
+        ],
+        "amendment.A1.fee_schedule.73030": [
+          [
+            1,
+            35
+          ]
+        ],
+        "amendment.A1.fee_schedule.97110": [
+          [
+            1,
+            36
+          ]
+        ],
+        "amendment.A1.fee_schedule.99213": [
+          [
+            1,
+            37
+          ]
+        ],
+        "amendment.A2.effective_date": [
+          [
+            2,
+            2
+          ]
+        ],
+        "amendment.A2.modifier.50": [
+          [
+            2,
+            3
+          ]
+        ],
+        "appeal_window_days": [
+          [
+            1,
+            13
+          ]
+        ],
+        "carve_out.29881": [
+          [
+            1,
+            8
+          ]
+        ],
+        "contract_id": [
+          [
+            1,
+            3
+          ]
+        ],
+        "effective_date": [
+          [
+            1,
+            5
+          ]
+        ],
+        "end_date": [
+          [
+            1,
+            6
+          ]
+        ],
+        "fee_schedule.17000": [
+          [
+            1,
+            28
+          ]
+        ],
+        "fee_schedule.97110": [
+          [
+            1,
+            29
+          ]
+        ],
+        "fee_schedule.99204": [
+          [
+            1,
+            30
+          ]
+        ],
+        "fee_schedule.99212": [
+          [
+            1,
+            31
+          ]
+        ],
+        "fee_schedule.99213": [
+          [
+            1,
+            32
+          ]
+        ],
+        "lesser_of_billed": [
+          [
+            1,
+            17
+          ]
+        ],
+        "medicare_year": [
+          [
+            1,
+            15
+          ],
+          [
+            1,
+            16
+          ]
+        ],
+        "modifier.50": [
+          [
+            1,
+            10
+          ]
+        ],
+        "modifier.52": [
+          [
+            1,
+            11
+          ]
+        ],
+        "mpr_secondary_pct": [
+          [
+            1,
+            18
+          ]
+        ],
+        "payer_name": [
+          [
+            1,
+            2
+          ]
+        ],
+        "pct_medicare": [
+          [
+            1,
+            15
+          ],
+          [
+            1,
+            16
+          ]
+        ],
+        "provider_npi": [
+          [
+            1,
+            4
+          ]
+        ],
+        "timely_filing_days": [
+          [
+            1,
+            20
+          ]
+        ]
+      },
+      "contract": {
+        "amendments": [
+          {
+            "amendment_id": "A1",
+            "effective_date": "2026-03-01",
+            "patch": {
+              "appeal_window_days": null,
+              "carve_outs": {},
+              "fee_schedule": {
+                "73030": "47.71",
+                "97110": "37.26",
+                "99213": "100.77"
+              },
+              "lesser_of_billed": null,
+              "medicare_year": null,
+              "modifiers": {},
+              "mpr_secondary_pct": null,
+              "pct_medicare": null,
+              "timely_filing_days": null,
+              "unset": []
+            }
+          },
+          {
+            "amendment_id": "A2",
+            "effective_date": "2026-08-01",
+            "patch": {
+              "appeal_window_days": null,
+              "carve_outs": {},
+              "fee_schedule": {},
+              "lesser_of_billed": null,
+              "medicare_year": null,
+              "modifiers": {
+                "50": "1.25"
+              },
+              "mpr_secondary_pct": null,
+              "pct_medicare": null,
+              "timely_filing_days": null,
+              "unset": []
+            }
+          }
+        ],
+        "contract_id": "NW-2026-005",
+        "effective_date": "2026-01-01",
+        "end_date": "2026-12-31",
+        "payer_id": "60054",
+        "payer_name": "Northwind Health Plan",
+        "provider_npi": "1136132994",
+        "terms": {
+          "appeal_window_days": 120,
+          "carve_outs": {
+            "29881": {
+              "mpr_exempt": true,
+              "rate": "624.51"
+            }
+          },
+          "fee_schedule": {
+            "17000": "75.13",
+            "97110": "35.15",
+            "99204": "227.00",
+            "99212": "75.50",
+            "99213": "95.07"
+          },
+          "lesser_of_billed": true,
+          "medicare_year": 2026,
+          "modifiers": {
+            "50": "1.50",
+            "52": "0.50"
+          },
+          "mpr_secondary_pct": null,
+          "pct_medicare": "1.40",
+          "timely_filing_days": 365
+        }
+      },
+      "decoy_lines": [
+        [
+          1,
+          22
+        ],
+        [
+          1,
+          23
+        ],
+        [
+          1,
+          24
+        ],
+        [
+          1,
+          25
+        ]
+      ],
+      "injection_lines": [],
+      "pack": "B",
+      "pdf": "contracts/NW-2026-005.pdf",
+      "practice": "Astoria Sports Medicine",
+      "remits": [
+        "remits/NW-2026-005-20260313.835",
+        "remits/NW-2026-005-20260327.835",
+        "remits/NW-2026-005-20260410.835",
+        "remits/NW-2026-005-20260508.835",
+        "remits/NW-2026-005-20260515.835",
+        "remits/NW-2026-005-20260814.835",
+        "remits/NW-2026-005-20260821.835",
+        "remits/NW-2026-005-20260904.835",
+        "remits/NW-2026-005-20261002.835",
+        "remits/NW-2026-005-20261016.835"
+      ],
+      "variant": "messy"
+    },
+    "NW-2026-009": {
+      "citations": {
+        "amendment.A1.effective_date": [
+          [
+            1,
+            37
+          ]
+        ],
+        "amendment.A1.pct_medicare": [
+          [
+            1,
+            38
+          ],
+          [
+            1,
+            39
+          ]
+        ],
+        "appeal_window_days": [
+          [
+            1,
+            19
+          ],
+          [
+            1,
+            20
+          ]
+        ],
+        "contract_id": [
+          [
+            1,
+            4
+          ]
+        ],
+        "effective_date": [
+          [
+            1,
+            6
+          ]
+        ],
+        "end_date": [
+          [
+            1,
+            7
+          ]
+        ],
+        "fee_schedule.29880": [
+          [
+            1,
+            31
+          ]
+        ],
+        "fee_schedule.73030": [
+          [
+            1,
+            32
+          ]
+        ],
+        "fee_schedule.99204": [
+          [
+            1,
+            33
+          ]
+        ],
+        "fee_schedule.99212": [
+          [
+            1,
+            34
+          ]
+        ],
+        "fee_schedule.99214": [
+          [
+            1,
+            35
+          ]
+        ],
+        "lesser_of_billed": [
+          [
+            1,
+            16
+          ]
+        ],
+        "medicare_year": [
+          [
+            1,
+            14
+          ],
+          [
+            1,
+            15
+          ]
+        ],
+        "modifier.50": [
+          [
+            1,
+            11
+          ]
+        ],
+        "modifier.80": [
+          [
+            1,
+            12
+          ]
+        ],
+        "mpr_secondary_pct": [
+          [
+            1,
+            17
+          ]
+        ],
+        "payer_name": [
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ]
+        ],
+        "pct_medicare": [
+          [
+            1,
+            14
+          ],
+          [
+            1,
+            15
+          ]
+        ],
+        "provider_npi": [
+          [
+            1,
+            5
+          ]
+        ],
+        "timely_filing_days": [
+          [
+            1,
+            9
+          ]
+        ]
+      },
+      "contract": {
+        "amendments": [
+          {
+            "amendment_id": "A1",
+            "effective_date": "2026-05-01",
+            "patch": {
+              "appeal_window_days": null,
+              "carve_outs": {},
+              "fee_schedule": {},
+              "lesser_of_billed": null,
+              "medicare_year": null,
+              "modifiers": {},
+              "mpr_secondary_pct": null,
+              "pct_medicare": "1.20",
+              "timely_filing_days": null,
+              "unset": []
+            }
+          }
+        ],
+        "contract_id": "NW-2026-009",
+        "effective_date": "2026-01-01",
+        "end_date": "2026-12-31",
+        "payer_id": "60054",
+        "payer_name": "Northwind Health Plan",
+        "provider_npi": "1723109645",
+        "terms": {
+          "appeal_window_days": 120,
+          "carve_outs": {},
+          "fee_schedule": {
+            "29880": "731.54",
+            "73030": "42.44",
+            "99204": "169.40",
+            "99212": "84.66",
+            "99214": "137.24"
+          },
+          "lesser_of_billed": true,
+          "medicare_year": 2026,
+          "modifiers": {
+            "50": "1.50",
+            "80": "0.16"
+          },
+          "mpr_secondary_pct": "0.60",
+          "pct_medicare": "1.10",
+          "timely_filing_days": 90
+        }
+      },
+      "decoy_lines": [
+        [
+          1,
+          22
+        ],
+        [
+          1,
+          23
+        ],
+        [
+          1,
+          24
+        ],
+        [
+          1,
+          25
+        ],
+        [
+          1,
+          26
+        ],
+        [
+          1,
+          27
+        ],
+        [
+          1,
+          28
+        ]
+      ],
+      "injection_lines": [],
+      "pack": "B",
+      "pdf": "contracts/NW-2026-009.pdf",
+      "practice": "Flatiron Dermatology Group",
+      "remits": [
+        "remits/NW-2026-009-20260320.835",
+        "remits/NW-2026-009-20260515.835",
+        "remits/NW-2026-009-20260529.835",
+        "remits/NW-2026-009-20260626.835",
+        "remits/NW-2026-009-20260821.835",
+        "remits/NW-2026-009-20261106.835",
+        "remits/NW-2026-009-20261113.835",
+        "remits/NW-2026-009-20261204.835",
+        "remits/NW-2026-009-20270312.835"
+      ],
+      "variant": "scanned"
+    }
+  },
+  "lines": {
+    "HM2026002-001-1": {
+      "claim_id": "HM2026002-001",
+      "code": "99215",
+      "contract_id": "HM-2026-002",
+      "expected_allowed": "257.32",
+      "label": "underpaid",
+      "line_id": "HM2026002-001-1",
+      "payer_allowed": "238.94",
+      "payment_date": "2026-02-27",
+      "planted_error": "wrong_pct",
+      "recoverable": "18.38",
+      "service_date": "2026-01-12",
+      "variance": "18.38"
+    },
+    "HM2026002-002-1": {
+      "claim_id": "HM2026002-002",
+      "code": "99204",
+      "contract_id": "HM-2026-002",
+      "expected_allowed": "186.34",
+      "label": "correct",
+      "line_id": "HM2026002-002-1",
+      "payer_allowed": "186.34",
+      "payment_date": "2026-10-30",
+      "planted_error": "none",
+      "recoverable": "0",
+      "service_date": "2026-09-16",
+      "variance": "0"
+    },
+    "HM2026002-003-1": {
+      "claim_id": "HM2026002-003",
+      "code": "99214",
+      "contract_id": "HM-2026-002",
+      "expected_allowed": "167.30",
+      "label": "correct",
+      "line_id": "HM2026002-003-1",
+      "payer_allowed": "167.30",
+      "payment_date": "2026-05-01",
+      "planted_error": "none",
+      "recoverable": "0",
+      "service_date": "2026-04-08",
+      "variance": "0"
+    },
+    "HM2026002-004-1": {
+      "claim_id": "HM2026002-004",
+      "code": "99204",
+      "contract_id": "HM-2026-002",
+      "expected_allowed": "186.34",
+      "label": "correct",
+      "line_id": "HM2026002-004-1",
+      "payer_allowed": "186.34",
+      "payment_date": "2026-08-21",
+      "planted_error": "none",
+      "recoverable": "0",
+      "service_date": "2026-07-08",
+      "variance": "0"
+    },
+    "HM2026002-005-1": {
+      "claim_id": "HM2026002-005",
+      "code": "99213",
+      "contract_id": "HM-2026-002",
+      "expected_allowed": "129.22",
+      "label": "correct",
+      "line_id": "HM2026002-005-1",
+      "payer_allowed": "129.22",
+      "payment_date": "2026-05-08",
+      "planted_error": "none",
+      "recoverable": "0",
+      "service_date": "2026-03-17",
+      "variance": "0"
+    },
+    "HM2026002-005-2": {
+      "claim_id": "HM2026002-005",
+      "code": "29881",
+      "contract_id": "HM-2026-002",
+      "expected_allowed": "734.72",
+      "label": "correct",
+      "line_id": "HM2026002-005-2",
+      "payer_allowed": "734.72",
+      "payment_date": "2026-05-08",
+      "planted_error": "none",
+      "recoverable": "0",
+      "service_date": "2026-03-17",
+      "variance": "0"
+    },
+    "HM2026002-006-1": {
+      "claim_id": "HM2026002-006",
+      "code": "64483",
+      "contract_id": "HM-2026-002",
+      "expected_allowed": "437.51",
+      "label": "denial_valid",
+      "line_id": "HM2026002-006-1",
+      "payer_allowed": "0",
+      "payment_date": "2027-05-14",
+      "planted_error": "valid_timely_denial",
+      "recoverable": "0",
+      "service_date": "2026-09-18",
+      "variance": "437.51"
+    },
+    "HM2026002-006-2": {
+      "claim_id": "HM2026002-006",
+      "code": "20611",
+      "contract_id": "HM-2026-002",
+      "expected_allowed": "103.43",
+      "label": "denial_valid",
+      "line_id": "HM2026002-006-2",
+      "payer_allowed": "0",
+      "payment_date": "2027-05-14",
+      "planted_error": "valid_timely_denial",
+      "recoverable": "0",
+      "service_date": "2026-09-18",
+      "variance": "103.43"
+    },
+    "HM2026002-006-3": {
+      "claim_id": "HM2026002-006",
+      "code": "29881",
+      "contract_id": "HM-2026-002",
+      "expected_allowed": "734.72",
+      "label": "denial_valid",
+      "line_id": "HM2026002-006-3",
+      "payer_allowed": "0",
+      "payment_date": "2027-05-14",
+      "planted_error": "valid_timely_denial",
+      "recoverable": "0",
+      "service_date": "2026-09-18",
+      "variance": "734.72"
+    },
+    "HM2026002-007-1": {
+      "claim_id": "HM2026002-007",
+      "code": "20610",
+      "contract_id": "HM-2026-002",
+      "expected_allowed": "157.54",
+      "label": "underpaid",
+      "line_id": "HM2026002-007-1",
+      "payer_allowed": "90.02",
+      "payment_date": "2026-12-18",
+      "planted_error": "modifier_ignored",
+      "recoverable": "67.52",
+      "service_date": "2026-11-04",
+      "variance": "67.52"
+    },
+    "HM2026002-008-1": {
+      "claim_id": "HM2026002-008",
+      "code": "99214",
+      "contract_id": "HM-2026-002",
+      "expected_allowed": "167.30",
+      "label": "correct",
+      "line_id": "HM2026002-008-1",
+      "payer_allowed": "167.30",
+      "payment_date": "2026-04-03",
+      "planted_error": "none",
+      "recoverable": "0",
+      "service_date": "2026-03-05",
+      "variance": "0"
+    },
+    "HM2026002-008-2": {
+      "claim_id": "HM2026002-008",
+      "code": "17000",
+      "contract_id": "HM-2026-002",
+      "expected_allowed": "92.26",
+      "label": "underpaid",
+      "line_id": "HM2026002-008-2",
+      "payer_allowed": "85.67",
+      "payment_date": "2026-04-03",
+      "planted_error": "wrong_pct",
+      "recoverable": "6.59",
+      "service_date": "2026-03-05",
+      "variance": "6.59"
+    },
+    "HM2026002-009-1": {
+      "claim_id": "HM2026002-009",
+      "code": "11042",
+      "contract_id": "HM-2026-002",
+      "expected_allowed": "169.82",
+      "label": "correct",
+      "line_id": "HM2026002-009-1",
+      "payer_allowed": "169.82",
+      "payment_date": "2026-11-06",
+      "planted_error": "none",
+      "recoverable": "0",
+      "service_date": "2026-09-27",
+      "variance": "0"
+    },
+    "HM2026002-010-1": {
+      "claim_id": "HM2026002-010",
+      "code": "99214",
+      "contract_id": "HM-2026-002",
+      "expected_allowed": "167.30",
+      "label": "denial_invalid",
+      "line_id": "HM2026002-010-1",
+      "payer_allowed": "0",
+      "payment_date": "2027-04-16",
+      "planted_error": "invalid_timely_denial",
+      "recoverable": "167.30",
+      "service_date": "2026-11-16",
+      "variance": "167.30"
+    },
+    "HM2026002-010-2": {
+      "claim_id": "HM2026002-010",
+      "code": "11102",
+      "contract_id": "HM-2026-002",
+      "expected_allowed": "84.23",
+      "label": "denial_invalid",
+      "line_id": "HM2026002-010-2",
+      "payer_allowed": "0",
+      "payment_date": "2027-04-16",
+      "planted_error": "invalid_timely_denial",
+      "recoverable": "84.23",
+      "service_date": "2026-11-16",
+      "variance": "84.23"
+    },
+    "HM2026002-010-3": {
+      "claim_id": "HM2026002-010",
+      "code": "29880",
+      "contract_id": "HM-2026-002",
+      "expected_allowed": "798.05",
+      "label": "denial_invalid",
+      "line_id": "HM2026002-010-3",
+      "payer_allowed": "0",
+      "payment_date": "2027-04-16",
+      "planted_error": "invalid_timely_denial",
+      "recoverable": "798.05",
+      "service_date": "2026-11-16",
+      "variance": "798.05"
+    },
+    "HM2026002-010-4": {
+      "claim_id": "HM2026002-010",
+      "code": "20611",
+      "contract_id": "HM-2026-002",
+      "expected_allowed": "103.43",
+      "label": "denial_invalid",
+      "line_id": "HM2026002-010-4",
+      "payer_allowed": "0",
+      "payment_date": "2027-04-16",
+      "planted_error": "invalid_timely_denial",
+      "recoverable": "103.43",
+      "service_date": "2026-11-16",
+      "variance": "103.43"
+    },
+    "HM2026006-001-1": {
+      "claim_id": "HM2026006-001",
+      "code": "17000",
+      "contract_id": "HM-2026-006",
+      "expected_allowed": "76.44",
+      "label": "correct",
+      "line_id": "HM2026006-001-1",
+      "payer_allowed": "76.44",
+      "payment_date": "2026-02-27",
+      "planted_error": "none",
+      "recoverable": "0",
+      "service_date": "2026-01-28",
+      "variance": "0"
+    },
+    "HM2026006-002-1": {
+      "claim_id": "HM2026006-002",
+      "code": "99203",
+      "contract_id": "HM-2026-006",
+      "expected_allowed": "124.96",
+      "label": "correct",
+      "line_id": "HM2026006-002-1",
+      "payer_allowed": "124.96",
+      "payment_date": "2026-02-20",
+      "planted_error": "none",
+      "recoverable": "0",
+      "service_date": "2026-01-28",
+      "variance": "0"
+    },
+    "HM2026006-003-1": {
+      "claim_id": "HM2026006-003",
+      "code": "20610",
+      "contract_id": "HM-2026-006",
+      "expected_allowed": "70.73",
+      "label": "correct",
+      "line_id": "HM2026006-003-1",
+      "payer_allowed": "70.73",
+      "payment_date": "2026-05-01",
+      "planted_error": "none",
+      "recoverable": "0",
+      "service_date": "2026-04-08",
+      "variance": "0"
+    },
+    "HM2026006-004-1": {
+      "claim_id": "HM2026006-004",
+      "code": "99213",
+      "contract_id": "HM-2026-006",
+      "expected_allowed": "101.53",
+      "label": "overpaid",
+      "line_id": "HM2026006-004-1",
+      "payer_allowed": "106.15",
+      "payment_date": "2026-09-18",
+      "planted_error": "overpaid",
+      "recoverable": "0",
+      "service_date": "2026-08-16",
+      "variance": "-4.62"
+    },
+    "HM2026006-004-2": {
+      "claim_id": "HM2026006-004",
+      "code": "96372",
+      "contract_id": "HM-2026-006",
+      "expected_allowed": "18.49",
+      "label": "overpaid",
+      "line_id": "HM2026006-004-2",
+      "payer_allowed": "19.97",
+      "payment_date": "2026-09-18",
+      "planted_error": "overpaid",
+      "recoverable": "0",
+      "service_date": "2026-08-16",
+      "variance": "-1.48"
+    },
+    "HM2026006-005-1": {
+      "claim_id": "HM2026006-005",
+      "code": "64483",
+      "contract_id": "HM-2026-006",
+      "expected_allowed": "392.87",
+      "label": "correct",
+      "line_id": "HM2026006-005-1",
+      "payer_allowed": "392.87",
+      "payment_date": "2026-05-08",
+      "planted_error": "none",
+      "recoverable": "0",
+      "service_date": "2026-03-17",
+      "variance": "0"
+    },
+    "HM2026006-005-2": {
+      "claim_id": "HM2026006-005",
+      "code": "20610",
+      "contract_id": "HM-2026-006",
+      "expected_allowed": "35.37",
+      "label": "correct",
+      "line_id": "HM2026006-005-2",
+      "payer_allowed": "35.37",
+      "payment_date": "2026-05-08",
+      "planted_error": "none",
+      "recoverable": "0",
+      "service_date": "2026-03-17",
+      "variance": "0"
+    },
+    "HM2026006-006-1": {
+      "claim_id": "HM2026006-006",
+      "code": "17000",
+      "contract_id": "HM-2026-006",
+      "expected_allowed": "76.44",
+      "label": "correct",
+      "line_id": "HM2026006-006-1",
+      "payer_allowed": "76.44",
+      "payment_date": "2026-12-18",
+      "planted_error": "none",
+      "recoverable": "0",
+      "service_date": "2026-10-24",
+      "variance": "0"
+    },
+    "HM2026006-006-2": {
+      "claim_id": "HM2026006-006",
+      "code": "11042",
+      "contract_id": "HM-2026-006",
+      "expected_allowed": "66.72",
+      "label": "underpaid",
+      "line_id": "HM2026006-006-2",
+      "payer_allowed": "60.65",
+      "payment_date": "2026-12-18",
+      "planted_error": "wrong_pct",
+      "recoverable": "6.07",
+      "service_date": "2026-10-24",
+      "variance": "6.07"
+    },
+    "HM2026006-006-3": {
+      "claim_id": "HM2026006-006",
+      "code": "11102",
+      "contract_id": "HM-2026-006",
+      "expected_allowed": "222.08",
+      "label": "correct",
+      "line_id": "HM2026006-006-3",
+      "payer_allowed": "222.08",
+      "payment_date": "2026-12-18",
+      "planted_error": "none",
+      "recoverable": "0",
+      "service_date": "2026-10-24",
+      "variance": "0"
+    },
+    "HM2026006-007-1": {
+      "claim_id": "HM2026006-007",
+      "code": "99213",
+      "contract_id": "HM-2026-006",
+      "expected_allowed": "101.53",
+      "label": "underpaid",
+      "line_id": "HM2026006-007-1",
+      "payer_allowed": "92.30",
+      "payment_date": "2026-09-04",
+      "planted_error": "wrong_pct",
+      "recoverable": "9.23",
+      "service_date": "2026-07-29",
+      "variance": "9.23"
+    },
+    "HM2026006-007-2": {
+      "claim_id": "HM2026006-007",
+      "code": "17000",
+      "contract_id": "HM-2026-006",
+      "expected_allowed": "76.44",
+      "label": "correct",
+      "line_id": "HM2026006-007-2",
+      "payer_allowed": "76.44",
+      "payment_date": "2026-09-04",
+      "planted_error": "none",
+      "recoverable": "0",
+      "service_date": "2026-07-29",
+      "variance": "0"
+    },
+    "HM2026006-008-1": {
+      "claim_id": "HM2026006-008",
+      "code": "99214",
+      "contract_id": "HM-2026-006",
+      "expected_allowed": "171.22",
+      "label": "correct",
+      "line_id": "HM2026006-008-1",
+      "payer_allowed": "171.22",
+      "payment_date": "2026-08-14",
+      "planted_error": "none",
+      "recoverable": "0",
+      "service_date": "2026-07-05",
+      "variance": "0"
+    },
+    "HM2026006-009-1": {
+      "claim_id": "HM2026006-009",
+      "code": "99214",
+      "contract_id": "HM-2026-006",
+      "expected_allowed": "156.96",
+      "label": "correct",
+      "line_id": "HM2026006-009-1",
+      "payer_allowed": "156.96",
+      "payment_date": "2026-02-20",
+      "planted_error": "none",
+      "recoverable": "0",
+      "service_date": "2026-01-17",
+      "variance": "0"
+    },
+    "HM2026006-009-2": {
+      "claim_id": "HM2026006-009",
+      "code": "17000",
+      "contract_id": "HM-2026-006",
+      "expected_allowed": "59.35",
+      "label": "correct",
+      "line_id": "HM2026006-009-2",
+      "payer_allowed": "59.35",
+      "payment_date": "2026-02-20",
+      "planted_error": "none",
+      "recoverable": "0",
+      "service_date": "2026-01-17",
+      "variance": "0"
+    },
+    "HM2026006-009-3": {
+      "claim_id": "HM2026006-009",
+      "code": "11102",
+      "contract_id": "HM-2026-006",
+      "expected_allowed": "58.07",
+      "label": "correct",
+      "line_id": "HM2026006-009-3",
+      "payer_allowed": "58.07",
+      "payment_date": "2026-02-20",
+      "planted_error": "none",
+      "recoverable": "0",
+      "service_date": "2026-01-17",
+      "variance": "0"
+    },
+    "HM2026006-009-4": {
+      "claim_id": "HM2026006-009",
+      "code": "29880",
+      "contract_id": "HM-2026-006",
+      "expected_allowed": "704.93",
+      "label": "correct",
+      "line_id": "HM2026006-009-4",
+      "payer_allowed": "704.93",
+      "payment_date": "2026-02-20",
+      "planted_error": "none",
+      "recoverable": "0",
+      "service_date": "2026-01-17",
+      "variance": "0"
+    },
+    "HM2026006-010-1": {
+      "claim_id": "HM2026006-010",
+      "code": "99213",
+      "contract_id": "HM-2026-006",
+      "expected_allowed": "101.53",
+      "label": "correct",
+      "line_id": "HM2026006-010-1",
+      "payer_allowed": "101.53",
+      "payment_date": "2026-10-02",
+      "planted_error": "none",
+      "recoverable": "0",
+      "service_date": "2026-09-12",
+      "variance": "0"
+    },
+    "HM2026006-010-2": {
+      "claim_id": "HM2026006-010",
+      "code": "17000",
+      "contract_id": "HM-2026-006",
+      "expected_allowed": "76.44",
+      "label": "underpaid",
+      "line_id": "HM2026006-010-2",
+      "payer_allowed": "38.22",
+      "payment_date": "2026-10-02",
+      "planted_error": "mpr_misapplied",
+      "recoverable": "38.22",
+      "service_date": "2026-09-12",
+      "variance": "38.22"
+    },
+    "HM2026006-010-3": {
+      "claim_id": "HM2026006-010",
+      "code": "29881",
+      "contract_id": "HM-2026-006",
+      "expected_allowed": "865.92",
+      "label": "correct",
+      "line_id": "HM2026006-010-3",
+      "payer_allowed": "865.92",
+      "payment_date": "2026-10-02",
+      "planted_error": "none",
+      "recoverable": "0",
+      "service_date": "2026-09-12",
+      "variance": "0"
+    },
+    "HM2026010-001-1": {
+      "claim_id": "HM2026010-001",
+      "code": "99212",
+      "contract_id": "HM-2026-010",
+      "expected_allowed": "60.63",
+      "label": "correct",
+      "line_id": "HM2026010-001-1",
+      "payer_allowed": "60.63",
+      "payment_date": "2026-12-11",
+      "planted_error": "none",
+      "recoverable": "0",
+      "service_date": "2026-11-02",
+      "variance": "0"
+    },
+    "HM2026010-002-1": {
+      "claim_id": "HM2026010-002",
+      "code": "99214",
+      "contract_id": "HM-2026-010",
+      "expected_allowed": "198.66",
+      "label": "correct",
+      "line_id": "HM2026010-002-1",
+      "payer_allowed": "198.66",
+      "payment_date": "2026-06-12",
+      "planted_error": "none",
+      "recoverable": "0",
+      "service_date": "2026-05-05",
+      "variance": "0"
+    },
+    "HM2026010-002-2": {
+      "claim_id": "HM2026010-002",
+      "code": "29880",
+      "contract_id": "HM-2026-010",
+      "expected_allowed": "886.72",
+      "label": "correct",
+      "line_id": "HM2026010-002-2",
+      "payer_allowed": "886.72",
+      "payment_date": "2026-06-12",
+      "planted_error": "none",
+      "recoverable": "0",
+      "service_date": "2026-05-05",
+      "variance": "0"
+    },
+    "HM2026010-002-3": {
+      "claim_id": "HM2026010-002",
+      "code": "11102",
+      "contract_id": "HM-2026-010",
+      "expected_allowed": "83.47",
+      "label": "correct",
+      "line_id": "HM2026010-002-3",
+      "payer_allowed": "83.47",
+      "payment_date": "2026-06-12",
+      "planted_error": "none",
+      "recoverable": "0",
+      "service_date": "2026-05-05",
+      "variance": "0"
+    },
+    "HM2026010-003-1": {
+      "claim_id": "HM2026010-003",
+      "code": "29880",
+      "contract_id": "HM-2026-010",
+      "expected_allowed": "886.72",
+      "label": "denial_invalid",
+      "line_id": "HM2026010-003-1",
+      "payer_allowed": "0",
+      "payment_date": "2026-09-04",
+      "planted_error": "invalid_timely_denial",
+      "recoverable": "886.72",
+      "service_date": "2026-02-28",
+      "variance": "886.72"
+    },
+    "HM2026010-004-1": {
+      "claim_id": "HM2026010-004",
+      "code": "99215",
+      "contract_id": "HM-2026-010",
+      "expected_allowed": "257.32",
+      "label": "underpaid",
+      "line_id": "HM2026010-004-1",
+      "payer_allowed": "238.94",
+      "payment_date": "2026-07-24",
+      "planted_error": "wrong_pct",
+      "recoverable": "18.38",
+      "service_date": "2026-06-01",
+      "variance": "18.38"
+    },
+    "HM2026010-004-2": {
+      "claim_id": "HM2026010-004",
+      "code": "96372",
+      "contract_id": "HM-2026-010",
+      "expected_allowed": "22.12",
+      "label": "underpaid",
+      "line_id": "HM2026010-004-2",
+      "payer_allowed": "20.54",
+      "payment_date": "2026-07-24",
+      "planted_error": "wrong_pct",
+      "recoverable": "1.58",
+      "service_date": "2026-06-01",
+      "variance": "1.58"
+    },
+    "HM2026010-005-1": {
+      "claim_id": "HM2026010-005",
+      "code": "99213",
+      "contract_id": "HM-2026-010",
+      "expected_allowed": "124.61",
+      "label": "correct",
+      "line_id": "HM2026010-005-1",
+      "payer_allowed": "124.61",
+      "payment_date": "2026-08-07",
+      "planted_error": "none",
+      "recoverable": "0",
+      "service_date": "2026-06-20",
+      "variance": "0"
+    },
+    "HM2026010-005-2": {
+      "claim_id": "HM2026010-005",
+      "code": "20610",
+      "contract_id": "HM-2026-010",
+      "expected_allowed": "101.27",
+      "label": "underpaid",
+      "line_id": "HM2026010-005-2",
+      "payer_allowed": "67.52",
+      "payment_date": "2026-08-07",
+      "planted_error": "modifier_ignored",
+      "recoverable": "33.75",
+      "service_date": "2026-06-20",
+      "variance": "33.75"
+    },
+    "HM2026010-005-3": {
+      "claim_id": "HM2026010-005",
+      "code": "17000",
+      "contract_id": "HM-2026-010",
+      "expected_allowed": "69.20",
+      "label": "correct",
+      "line_id": "HM2026010-005-3",
+      "payer_allowed": "69.20",
+      "payment_date": "2026-08-07",
+      "planted_error": "none",
+      "recoverable": "0",
+      "service_date": "2026-06-20",
+      "variance": "0"
+    },
+    "HM2026010-005-4": {
+      "claim_id": "HM2026010-005",
+      "code": "64483",
+      "contract_id": "HM-2026-010",
+      "expected_allowed": "333.34",
+      "label": "correct",
+      "line_id": "HM2026010-005-4",
+      "payer_allowed": "333.34",
+      "payment_date": "2026-08-07",
+      "planted_error": "none",
+      "recoverable": "0",
+      "service_date": "2026-06-20",
+      "variance": "0"
+    },
+    "HM2026010-006-1": {
+      "claim_id": "HM2026010-006",
+      "code": "20611",
+      "contract_id": "HM-2026-010",
+      "expected_allowed": "103.43",
+      "label": "underpaid",
+      "line_id": "HM2026010-006-1",
+      "payer_allowed": "68.95",
+      "payment_date": "2026-08-21",
+      "planted_error": "mpr_misapplied",
+      "recoverable": "34.48",
+      "service_date": "2026-07-25",
+      "variance": "34.48"
+    },
+    "HM2026010-006-2": {
+      "claim_id": "HM2026010-006",
+      "code": "29880",
+      "contract_id": "HM-2026-010",
+      "expected_allowed": "886.72",
+      "label": "correct",
+      "line_id": "HM2026010-006-2",
+      "payer_allowed": "886.72",
+      "payment_date": "2026-08-21",
+      "planted_error": "none",
+      "recoverable": "0",
+      "service_date": "2026-07-25",
+      "variance": "0"
+    },
+    "HM2026010-007-1": {
+      "claim_id": "HM2026010-007",
+      "code": "99214",
+      "contract_id": "HM-2026-010",
+      "expected_allowed": "198.66",
+      "label": "correct",
+      "line_id": "HM2026010-007-1",
+      "payer_allowed": "198.66",
+      "payment_date": "2026-08-07",
+      "planted_error": "none",
+      "recoverable": "0",
+      "service_date": "2026-07-19",
+      "variance": "0"
+    },
+    "HM2026010-007-2": {
+      "claim_id": "HM2026010-007",
+      "code": "20611",
+      "contract_id": "HM-2026-010",
+      "expected_allowed": "137.90",
+      "label": "underpaid",
+      "line_id": "HM2026010-007-2",
+      "payer_allowed": "128.05",
+      "payment_date": "2026-08-07",
+      "planted_error": "wrong_pct",
+      "recoverable": "9.85",
+      "service_date": "2026-07-19",
+      "variance": "9.85"
+    },
+    "HM2026010-007-3": {
+      "claim_id": "HM2026010-007",
+      "code": "11102",
+      "contract_id": "HM-2026-010",
+      "expected_allowed": "166.94",
+      "label": "correct",
+      "line_id": "HM2026010-007-3",
+      "payer_allowed": "166.94",
+      "payment_date": "2026-08-07",
+      "planted_error": "none",
+      "recoverable": "0",
+      "service_date": "2026-07-19",
+      "variance": "0"
+    },
+    "HM2026010-008-1": {
+      "claim_id": "HM2026010-008",
+      "code": "99204",
+      "contract_id": "HM-2026-010",
+      "expected_allowed": "237.16",
+      "label": "correct",
+      "line_id": "HM2026010-008-1",
+      "payer_allowed": "237.16",
+      "payment_date": "2026-05-01",
+      "planted_error": "none",
+      "recoverable": "0",
+      "service_date": "2026-03-26",
+      "variance": "0"
+    },
+    "HM2026010-009-1": {
+      "claim_id": "HM2026010-009",
+      "code": "20611",
+      "contract_id": "HM-2026-010",
+      "expected_allowed": "103.43",
+      "label": "correct",
+      "line_id": "HM2026010-009-1",
+      "payer_allowed": "103.43",
+      "payment_date": "2026-05-01",
+      "planted_error": "none",
+      "recoverable": "0",
+      "service_date": "2026-04-12",
+      "variance": "0"
+    },
+    "HM2026010-009-2": {
+      "claim_id": "HM2026010-009",
+      "code": "29880",
+      "contract_id": "HM-2026-010",
+      "expected_allowed": "886.72",
+      "label": "underpaid",
+      "line_id": "HM2026010-009-2",
+      "payer_allowed": "775.88",
+      "payment_date": "2026-05-01",
+      "planted_error": "fee_row_ignored",
+      "recoverable": "110.84",
+      "service_date": "2026-04-12",
+      "variance": "110.84"
+    },
+    "HM2026010-009-3": {
+      "claim_id": "HM2026010-009",
+      "code": "99214",
+      "contract_id": "HM-2026-010",
+      "expected_allowed": "198.66",
+      "label": "underpaid",
+      "line_id": "HM2026010-009-3",
+      "payer_allowed": "182.98",
+      "payment_date": "2026-05-01",
+      "planted_error": "fee_row_ignored",
+      "recoverable": "15.68",
+      "service_date": "2026-04-12",
+      "variance": "15.68"
+    },
+    "HM2026010-010-1": {
+      "claim_id": "HM2026010-010",
+      "code": "99213",
+      "contract_id": "HM-2026-010",
+      "expected_allowed": "124.61",
+      "label": "correct",
+      "line_id": "HM2026010-010-1",
+      "payer_allowed": "124.61",
+      "payment_date": "2026-08-07",
+      "planted_error": "none",
+      "recoverable": "0",
+      "service_date": "2026-06-23",
+      "variance": "0"
+    },
+    "HM2026010-010-2": {
+      "claim_id": "HM2026010-010",
+      "code": "20611",
+      "contract_id": "HM-2026-010",
+      "expected_allowed": "103.43",
+      "label": "underpaid",
+      "line_id": "HM2026010-010-2",
+      "payer_allowed": "68.95",
+      "payment_date": "2026-08-07",
+      "planted_error": "mpr_misapplied",
+      "recoverable": "34.48",
+      "service_date": "2026-06-23",
+      "variance": "34.48"
+    },
+    "HM2026010-010-3": {
+      "claim_id": "HM2026010-010",
+      "code": "64483",
+      "contract_id": "HM-2026-010",
+      "expected_allowed": "333.34",
+      "label": "correct",
+      "line_id": "HM2026010-010-3",
+      "payer_allowed": "333.34",
+      "payment_date": "2026-08-07",
+      "planted_error": "none",
+      "recoverable": "0",
+      "service_date": "2026-06-23",
+      "variance": "0"
+    },
+    "KB2026003-001-1": {
+      "claim_id": "KB2026003-001",
+      "code": "99213",
+      "contract_id": "KB-2026-003",
+      "expected_allowed": "77.71",
+      "label": "correct",
+      "line_id": "KB2026003-001-1",
+      "payer_allowed": "77.71",
+      "payment_date": "2026-09-11",
+      "planted_error": "none",
+      "recoverable": "0",
+      "service_date": "2026-07-31",
+      "variance": "0"
+    },
+    "KB2026003-002-1": {
+      "claim_id": "KB2026003-002",
+      "code": "99214",
+      "contract_id": "KB-2026-003",
+      "expected_allowed": "156.84",
+      "label": "correct",
+      "line_id": "KB2026003-002-1",
+      "payer_allowed": "156.84",
+      "payment_date": "2026-08-07",
+      "planted_error": "none",
+      "recoverable": "0",
+      "service_date": "2026-07-18",
+      "variance": "0"
+    },
+    "KB2026003-003-1": {
+      "claim_id": "KB2026003-003",
+      "code": "99214",
+      "contract_id": "KB-2026-003",
+      "expected_allowed": "163.38",
+      "label": "correct",
+      "line_id": "KB2026003-003-1",
+      "payer_allowed": "163.38",
+      "payment_date": "2026-04-17",
+      "planted_error": "none",
+      "recoverable": "0",
+      "service_date": "2026-03-29",
+      "variance": "0"
+    },
+    "KB2026003-004-1": {
+      "claim_id": "KB2026003-004",
+      "code": "99213",
+      "contract_id": "KB-2026-003",
+      "expected_allowed": "107.99",
+      "label": "correct",
+      "line_id": "KB2026003-004-1",
+      "payer_allowed": "107.99",
+      "payment_date": "2026-04-03",
+      "planted_error": "none",
+      "recoverable": "0",
+      "service_date": "2026-03-04",
+      "variance": "0"
+    },
+    "KB2026003-004-2": {
+      "claim_id": "KB2026003-004",
+      "code": "73030",
+      "contract_id": "KB-2026-003",
+      "expected_allowed": "41.13",
+      "label": "correct",
+      "line_id": "KB2026003-004-2",
+      "payer_allowed": "41.13",
+      "payment_date": "2026-04-03",
+      "planted_error": "none",
+      "recoverable": "0",
+      "service_date": "2026-03-04",
+      "variance": "0"
+    },
+    "KB2026003-005-1": {
+      "claim_id": "KB2026003-005",
+      "code": "20610",
+      "contract_id": "KB-2026-003",
+      "expected_allowed": "77.16",
+      "label": "correct",
+      "line_id": "KB2026003-005-1",
+      "payer_allowed": "77.16",
+      "payment_date": "2026-12-04",
+      "planted_error": "none",
+      "recoverable": "0",
+      "service_date": "2026-11-04",
+      "variance": "0"
+    },
+    "KB2026003-006-1": {
+      "claim_id": "KB2026003-006",
+      "code": "99215",
+      "contract_id": "KB-2026-003",
+      "expected_allowed": "224.24",
+      "label": "overpaid",
+      "line_id": "KB2026003-006-1",
+      "payer_allowed": "242.18",
+      "payment_date": "2026-10-09",
+      "planted_error": "overpaid",
+      "recoverable": "0",
+      "service_date": "2026-08-24",
+      "variance": "-17.94"
+    },
+    "KB2026003-007-1": {
+      "claim_id": "KB2026003-007",
+      "code": "99203",
+      "contract_id": "KB-2026-003",
+      "expected_allowed": "136.32",
+      "label": "correct",
+      "line_id": "KB2026003-007-1",
+      "payer_allowed": "136.32",
+      "payment_date": "2026-11-06",
+      "planted_error": "none",
+      "recoverable": "0",
+      "service_date": "2026-09-26",
+      "variance": "0"
+    },
+    "KB2026003-007-2": {
+      "claim_id": "KB2026003-007",
+      "code": "73030",
+      "contract_id": "KB-2026-003",
+      "expected_allowed": "39.48",
+      "label": "correct",
+      "line_id": "KB2026003-007-2",
+      "payer_allowed": "39.48",
+      "payment_date": "2026-11-06",
+      "planted_error": "none",
+      "recoverable": "0",
+      "service_date": "2026-09-26",
+      "variance": "0"
+    },
+    "KB2026003-007-3": {
+      "claim_id": "KB2026003-007",
+      "code": "29880",
+      "contract_id": "KB-2026-003",
+      "expected_allowed": "792.51",
+      "label": "underpaid",
+      "line_id": "KB2026003-007-3",
+      "payer_allowed": "665.04",
+      "payment_date": "2026-11-06",
+      "planted_error": "fee_row_ignored",
+      "recoverable": "127.47",
+      "service_date": "2026-09-26",
+      "variance": "127.47"
+    },
+    "KB2026003-008-1": {
+      "claim_id": "KB2026003-008",
+      "code": "17000",
+      "contract_id": "KB-2026-003",
+      "expected_allowed": "52.59",
+      "label": "denial_invalid",
+      "line_id": "KB2026003-008-1",
+      "payer_allowed": "0",
+      "payment_date": "2026-12-04",
+      "planted_error": "invalid_timely_denial",
+      "recoverable": "52.59",
+      "service_date": "2026-09-12",
+      "variance": "52.59"
+    },
+    "KB2026003-008-2": {
+      "claim_id": "KB2026003-008",
+      "code": "29881",
+      "contract_id": "KB-2026-003",
+      "expected_allowed": "629.76",
+      "label": "denial_invalid",
+      "line_id": "KB2026003-008-2",
+      "payer_allowed": "0",
+      "payment_date": "2026-12-04",
+      "planted_error": "invalid_timely_denial",
+      "recoverable": "629.76",
+      "service_date": "2026-09-12",
+      "variance": "629.76"
+    },
+    "KB2026003-008-3": {
+      "claim_id": "KB2026003-008",
+      "code": "20610",
+      "contract_id": "KB-2026-003",
+      "expected_allowed": "46.30",
+      "label": "denial_invalid",
+      "line_id": "KB2026003-008-3",
+      "payer_allowed": "0",
+      "payment_date": "2026-12-04",
+      "planted_error": "invalid_timely_denial",
+      "recoverable": "46.30",
+      "service_date": "2026-09-12",
+      "variance": "46.30"
+    },
+    "KB2026003-009-1": {
+      "claim_id": "KB2026003-009",
+      "code": "20611",
+      "contract_id": "KB-2026-003",
+      "expected_allowed": "117.22",
+      "label": "denial_invalid",
+      "line_id": "KB2026003-009-1",
+      "payer_allowed": "0",
+      "payment_date": "2026-06-12",
+      "planted_error": "invalid_timely_denial",
+      "recoverable": "117.22",
+      "service_date": "2026-03-14",
+      "variance": "117.22"
+    },
+    "KB2026003-009-2": {
+      "claim_id": "KB2026003-009",
+      "code": "20610",
+      "contract_id": "KB-2026-003",
+      "expected_allowed": "48.23",
+      "label": "denial_invalid",
+      "line_id": "KB2026003-009-2",
+      "payer_allowed": "0",
+      "payment_date": "2026-06-12",
+      "planted_error": "invalid_timely_denial",
+      "recoverable": "48.23",
+      "service_date": "2026-03-14",
+      "variance": "48.23"
+    },
+    "KB2026003-009-3": {
+      "claim_id": "KB2026003-009",
+      "code": "11102",
+      "contract_id": "KB-2026-003",
+      "expected_allowed": "204.20",
+      "label": "denial_invalid",
+      "line_id": "KB2026003-009-3",
+      "payer_allowed": "0",
+      "payment_date": "2026-06-12",
+      "planted_error": "invalid_timely_denial",
+      "recoverable": "204.20",
+      "service_date": "2026-03-14",
+      "variance": "204.20"
+    },
+    "KB2026003-010-1": {
+      "claim_id": "KB2026003-010",
+      "code": "99214",
+      "contract_id": "KB-2026-003",
+      "expected_allowed": "163.38",
+      "label": "correct",
+      "line_id": "KB2026003-010-1",
+      "payer_allowed": "163.38",
+      "payment_date": "2026-06-05",
+      "planted_error": "none",
+      "recoverable": "0",
+      "service_date": "2026-05-03",
+      "variance": "0"
+    },
+    "KB2026003-010-2": {
+      "claim_id": "KB2026003-010",
+      "code": "20611",
+      "contract_id": "KB-2026-003",
+      "expected_allowed": "117.22",
+      "label": "correct",
+      "line_id": "KB2026003-010-2",
+      "payer_allowed": "117.22",
+      "payment_date": "2026-06-05",
+      "planted_error": "none",
+      "recoverable": "0",
+      "service_date": "2026-05-03",
+      "variance": "0"
+    },
+    "KB2026003-010-3": {
+      "claim_id": "KB2026003-010",
+      "code": "29880",
+      "contract_id": "KB-2026-003",
+      "expected_allowed": "990.64",
+      "label": "underpaid",
+      "line_id": "KB2026003-010-3",
+      "payer_allowed": "792.51",
+      "payment_date": "2026-06-05",
+      "planted_error": "modifier_ignored",
+      "recoverable": "198.13",
+      "service_date": "2026-05-03",
+      "variance": "198.13"
+    },
+    "KB2026003-010-4": {
+      "claim_id": "KB2026003-010",
+      "code": "11042",
+      "contract_id": "KB-2026-003",
+      "expected_allowed": "90.98",
+      "label": "correct",
+      "line_id": "KB2026003-010-4",
+      "payer_allowed": "90.98",
+      "payment_date": "2026-06-05",
+      "planted_error": "none",
+      "recoverable": "0",
+      "service_date": "2026-05-03",
+      "variance": "0"
+    },
+    "KB2026007-001-1": {
+      "claim_id": "KB2026007-001",
+      "code": "99214",
+      "contract_id": "KB-2026-007",
+      "expected_allowed": "163.38",
+      "label": "correct",
+      "line_id": "KB2026007-001-1",
+      "payer_allowed": "163.38",
+      "payment_date": "2026-02-20",
+      "planted_error": "none",
+      "recoverable": "0",
+      "service_date": "2026-01-06",
+      "variance": "0"
+    },
+    "KB2026007-001-2": {
+      "claim_id": "KB2026007-001",
+      "code": "20610",
+      "contract_id": "KB-2026-007",
+      "expected_allowed": "80.38",
+      "label": "correct",
+      "line_id": "KB2026007-001-2",
+      "payer_allowed": "80.38",
+      "payment_date": "2026-02-20",
+      "planted_error": "none",
+      "recoverable": "0",
+      "service_date": "2026-01-06",
+      "variance": "0"
+    },
+    "KB2026007-001-3": {
+      "claim_id": "KB2026007-001",
+      "code": "17000",
+      "contract_id": "KB-2026-007",
+      "expected_allowed": "142.34",
+      "label": "underpaid",
+      "line_id": "KB2026007-001-3",
+      "payer_allowed": "71.17",
+      "payment_date": "2026-02-20",
+      "planted_error": "mpr_misapplied",
+      "recoverable": "71.17",
+      "service_date": "2026-01-06",
+      "variance": "71.17"
+    },
+    "KB2026007-002-1": {
+      "claim_id": "KB2026007-002",
+      "code": "29881",
+      "contract_id": "KB-2026-007",
+      "expected_allowed": "479.65",
+      "label": "denial_invalid",
+      "line_id": "KB2026007-002-1",
+      "payer_allowed": "0",
+      "payment_date": "2026-05-22",
+      "planted_error": "invalid_timely_denial",
+      "recoverable": "479.65",
+      "service_date": "2026-03-13",
+      "variance": "479.65"
+    },
+    "KB2026007-002-2": {
+      "claim_id": "KB2026007-002",
+      "code": "11042",
+      "contract_id": "KB-2026-007",
+      "expected_allowed": "138.77",
+      "label": "denial_invalid",
+      "line_id": "KB2026007-002-2",
+      "payer_allowed": "0",
+      "payment_date": "2026-05-22",
+      "planted_error": "invalid_timely_denial",
+      "recoverable": "138.77",
+      "service_date": "2026-03-13",
+      "variance": "138.77"
+    },
+    "KB2026007-002-3": {
+      "claim_id": "KB2026007-002",
+      "code": "11102",
+      "contract_id": "KB-2026-007",
+      "expected_allowed": "167.04",
+      "label": "denial_invalid",
+      "line_id": "KB2026007-002-3",
+      "payer_allowed": "0",
+      "payment_date": "2026-05-22",
+      "planted_error": "invalid_timely_denial",
+      "recoverable": "167.04",
+      "service_date": "2026-03-13",
+      "variance": "167.04"
+    },
+    "KB2026007-003-1": {
+      "claim_id": "KB2026007-003",
+      "code": "29880",
+      "contract_id": "KB-2026-007",
+      "expected_allowed": "803.59",
+      "label": "correct",
+      "line_id": "KB2026007-003-1",
+      "payer_allowed": "803.59",
+      "payment_date": "2026-03-20",
+      "planted_error": "none",
+      "recoverable": "0",
+      "service_date": "2026-03-01",
+      "variance": "0"
+    },
+    "KB2026007-003-2": {
+      "claim_id": "KB2026007-003",
+      "code": "20610",
+      "contract_id": "KB-2026-007",
+      "expected_allowed": "80.38",
+      "label": "correct",
+      "line_id": "KB2026007-003-2",
+      "payer_allowed": "80.38",
+      "payment_date": "2026-03-20",
+      "planted_error": "none",
+      "recoverable": "0",
+      "service_date": "2026-03-01",
+      "variance": "0"
+    },
+    "KB2026007-004-1": {
+      "claim_id": "KB2026007-004",
+      "code": "29880",
+      "contract_id": "KB-2026-007",
+      "expected_allowed": "803.59",
+      "label": "correct",
+      "line_id": "KB2026007-004-1",
+      "payer_allowed": "803.59",
+      "payment_date": "2026-03-27",
+      "planted_error": "none",
+      "recoverable": "0",
+      "service_date": "2026-02-15",
+      "variance": "0"
+    },
+    "KB2026007-005-1": {
+      "claim_id": "KB2026007-005",
+      "code": "29880",
+      "contract_id": "KB-2026-007",
+      "expected_allowed": "803.59",
+      "label": "correct",
+      "line_id": "KB2026007-005-1",
+      "payer_allowed": "803.59",
+      "payment_date": "2026-06-12",
+      "planted_error": "none",
+      "recoverable": "0",
+      "service_date": "2026-05-18",
+      "variance": "0"
+    },
+    "KB2026007-006-1": {
+      "claim_id": "KB2026007-006",
+      "code": "17000",
+      "contract_id": "KB-2026-007",
+      "expected_allowed": "71.17",
+      "label": "underpaid",
+      "line_id": "KB2026007-006-1",
+      "payer_allowed": "35.59",
+      "payment_date": "2026-11-06",
+      "planted_error": "mpr_misapplied",
+      "recoverable": "35.58",
+      "service_date": "2026-10-18",
+      "variance": "35.58"
+    },
+    "KB2026007-006-2": {
+      "claim_id": "KB2026007-006",
+      "code": "20611",
+      "contract_id": "KB-2026-007",
+      "expected_allowed": "121.16",
+      "label": "correct",
+      "line_id": "KB2026007-006-2",
+      "payer_allowed": "121.16",
+      "payment_date": "2026-11-06",
+      "planted_error": "none",
+      "recoverable": "0",
+      "service_date": "2026-10-18",
+      "variance": "0"
+    },
+    "KB2026007-007-1": {
+      "claim_id": "KB2026007-007",
+      "code": "99213",
+      "contract_id": "KB-2026-007",
+      "expected_allowed": "119.99",
+      "label": "underpaid",
+      "line_id": "KB2026007-007-1",
+      "payer_allowed": "110.76",
+      "payment_date": "2026-10-16",
+      "planted_error": "wrong_pct",
+      "recoverable": "9.23",
+      "service_date": "2026-09-05",
+      "variance": "9.23"
+    },
+    "KB2026007-007-2": {
+      "claim_id": "KB2026007-007",
+      "code": "29880",
+      "contract_id": "KB-2026-007",
+      "expected_allowed": "803.59",
+      "label": "correct",
+      "line_id": "KB2026007-007-2",
+      "payer_allowed": "803.59",
+      "payment_date": "2026-10-16",
+      "planted_error": "none",
+      "recoverable": "0",
+      "service_date": "2026-09-05",
+      "variance": "0"
+    },
+    "KB2026007-007-3": {
+      "claim_id": "KB2026007-007",
+      "code": "64483",
+      "contract_id": "KB-2026-007",
+      "expected_allowed": "464.30",
+      "label": "underpaid",
+      "line_id": "KB2026007-007-3",
+      "payer_allowed": "428.58",
+      "payment_date": "2026-10-16",
+      "planted_error": "wrong_pct",
+      "recoverable": "35.72",
+      "service_date": "2026-09-05",
+      "variance": "35.72"
+    },
+    "KB2026007-008-1": {
+      "claim_id": "KB2026007-008",
+      "code": "99214",
+      "contract_id": "KB-2026-007",
+      "expected_allowed": "169.91",
+      "label": "underpaid",
+      "line_id": "KB2026007-008-1",
+      "payer_allowed": "163.38",
+      "payment_date": "2026-10-02",
+      "planted_error": "stale_rate",
+      "recoverable": "6.53",
+      "service_date": "2026-08-18",
+      "variance": "6.53"
+    },
+    "KB2026007-008-2": {
+      "claim_id": "KB2026007-008",
+      "code": "29880",
+      "contract_id": "KB-2026-007",
+      "expected_allowed": "803.59",
+      "label": "correct",
+      "line_id": "KB2026007-008-2",
+      "payer_allowed": "803.59",
+      "payment_date": "2026-10-02",
+      "planted_error": "none",
+      "recoverable": "0",
+      "service_date": "2026-08-18",
+      "variance": "0"
+    },
+    "KB2026007-008-3": {
+      "claim_id": "KB2026007-008",
+      "code": "64483",
+      "contract_id": "KB-2026-007",
+      "expected_allowed": "309.53",
+      "label": "underpaid",
+      "line_id": "KB2026007-008-3",
+      "payer_allowed": "297.63",
+      "payment_date": "2026-10-02",
+      "planted_error": "stale_rate",
+      "recoverable": "11.90",
+      "service_date": "2026-08-18",
+      "variance": "11.90"
+    },
+    "KB2026007-008-4": {
+      "claim_id": "KB2026007-008",
+      "code": "17000",
+      "contract_id": "KB-2026-007",
+      "expected_allowed": "71.17",
+      "label": "correct",
+      "line_id": "KB2026007-008-4",
+      "payer_allowed": "71.17",
+      "payment_date": "2026-10-02",
+      "planted_error": "none",
+      "recoverable": "0",
+      "service_date": "2026-08-18",
+      "variance": "0"
+    },
+    "KB2026007-008-5": {
+      "claim_id": "KB2026007-008",
+      "code": "99213",
+      "contract_id": "KB-2026-007",
+      "expected_allowed": "119.99",
+      "label": "underpaid",
+      "line_id": "KB2026007-008-5",
+      "payer_allowed": "115.38",
+      "payment_date": "2026-10-02",
+      "planted_error": "stale_rate",
+      "recoverable": "4.61",
+      "service_date": "2026-08-18",
+      "variance": "4.61"
+    },
+    "KB2026007-009-1": {
+      "claim_id": "KB2026007-009",
+      "code": "29880",
+      "contract_id": "KB-2026-007",
+      "expected_allowed": "803.59",
+      "label": "correct",
+      "line_id": "KB2026007-009-1",
+      "payer_allowed": "803.59",
+      "payment_date": "2026-10-02",
+      "planted_error": "none",
+      "recoverable": "0",
+      "service_date": "2026-09-07",
+      "variance": "0"
+    },
+    "KB2026007-009-2": {
+      "claim_id": "KB2026007-009",
+      "code": "11042",
+      "contract_id": "KB-2026-007",
+      "expected_allowed": "157.69",
+      "label": "correct",
+      "line_id": "KB2026007-009-2",
+      "payer_allowed": "157.69",
+      "payment_date": "2026-10-02",
+      "planted_error": "none",
+      "recoverable": "0",
+      "service_date": "2026-09-07",
+      "variance": "0"
+    },
+    "KB2026007-010-1": {
+      "claim_id": "KB2026007-010",
+      "code": "11102",
+      "contract_id": "KB-2026-007",
+      "expected_allowed": "165.41",
+      "label": "correct",
+      "line_id": "KB2026007-010-1",
+      "payer_allowed": "165.41",
+      "payment_date": "2026-12-11",
+      "planted_error": "none",
+      "recoverable": "0",
+      "service_date": "2026-10-29",
+      "variance": "0"
+    },
+    "KB2026007-010-2": {
+      "claim_id": "KB2026007-010",
+      "code": "20610",
+      "contract_id": "KB-2026-007",
+      "expected_allowed": "83.59",
+      "label": "correct",
+      "line_id": "KB2026007-010-2",
+      "payer_allowed": "83.59",
+      "payment_date": "2026-12-11",
+      "planted_error": "none",
+      "recoverable": "0",
+      "service_date": "2026-10-29",
+      "variance": "0"
+    },
+    "LC2026004-001-1": {
+      "claim_id": "LC2026004-001",
+      "code": "99213",
+      "contract_id": "LC-2026-004",
+      "expected_allowed": "119.99",
+      "label": "overpaid",
+      "line_id": "LC2026004-001-1",
+      "payer_allowed": "124.61",
+      "payment_date": "2026-07-31",
+      "planted_error": "overpaid",
+      "recoverable": "0",
+      "service_date": "2026-07-06",
+      "variance": "-4.62"
+    },
+    "LC2026004-001-2": {
+      "claim_id": "LC2026004-001",
+      "code": "96372",
+      "contract_id": "LC-2026-004",
+      "expected_allowed": "20.54",
+      "label": "overpaid",
+      "line_id": "LC2026004-001-2",
+      "payer_allowed": "21.33",
+      "payment_date": "2026-07-31",
+      "planted_error": "overpaid",
+      "recoverable": "0",
+      "service_date": "2026-07-06",
+      "variance": "-0.79"
+    },
+    "LC2026004-002-1": {
+      "claim_id": "LC2026004-002",
+      "code": "99215",
+      "contract_id": "LC-2026-004",
+      "expected_allowed": "238.94",
+      "label": "denial_valid",
+      "line_id": "LC2026004-002-1",
+      "payer_allowed": "0",
+      "payment_date": "2027-10-29",
+      "planted_error": "valid_timely_denial",
+      "recoverable": "0",
+      "service_date": "2026-09-25",
+      "variance": "238.94"
+    },
+    "LC2026004-003-1": {
+      "claim_id": "LC2026004-003",
+      "code": "99212",
+      "contract_id": "LC-2026-004",
+      "expected_allowed": "74.36",
+      "label": "correct",
+      "line_id": "LC2026004-003-1",
+      "payer_allowed": "74.36",
+      "payment_date": "2026-10-02",
+      "planted_error": "none",
+      "recoverable": "0",
+      "service_date": "2026-09-05",
+      "variance": "0"
+    },
+    "LC2026004-003-2": {
+      "claim_id": "LC2026004-003",
+      "code": "11102",
+      "contract_id": "LC-2026-004",
+      "expected_allowed": "199.10",
+      "label": "underpaid",
+      "line_id": "LC2026004-003-2",
+      "payer_allowed": "165.91",
+      "payment_date": "2026-10-02",
+      "planted_error": "stale_rate",
+      "recoverable": "33.19",
+      "service_date": "2026-09-05",
+      "variance": "33.19"
+    },
+    "LC2026004-004-1": {
+      "claim_id": "LC2026004-004",
+      "code": "17000",
+      "contract_id": "LC-2026-004",
+      "expected_allowed": "45.14",
+      "label": "correct",
+      "line_id": "LC2026004-004-1",
+      "payer_allowed": "45.14",
+      "payment_date": "2026-03-13",
+      "planted_error": "none",
+      "recoverable": "0",
+      "service_date": "2026-02-16",
+      "variance": "0"
+    },
+    "LC2026004-004-2": {
+      "claim_id": "LC2026004-004",
+      "code": "29880",
+      "contract_id": "LC-2026-004",
+      "expected_allowed": "720.46",
+      "label": "correct",
+      "line_id": "LC2026004-004-2",
+      "payer_allowed": "720.46",
+      "payment_date": "2026-03-13",
+      "planted_error": "none",
+      "recoverable": "0",
+      "service_date": "2026-02-16",
+      "variance": "0"
+    },
+    "LC2026004-004-3": {
+      "claim_id": "LC2026004-004",
+      "code": "20610",
+      "contract_id": "LC-2026-004",
+      "expected_allowed": "41.80",
+      "label": "correct",
+      "line_id": "LC2026004-004-3",
+      "payer_allowed": "41.80",
+      "payment_date": "2026-03-13",
+      "planted_error": "none",
+      "recoverable": "0",
+      "service_date": "2026-02-16",
+      "variance": "0"
+    },
+    "LC2026004-005-1": {
+      "claim_id": "LC2026004-005",
+      "code": "99213",
+      "contract_id": "LC-2026-004",
+      "expected_allowed": "119.99",
+      "label": "correct",
+      "line_id": "LC2026004-005-1",
+      "payer_allowed": "119.99",
+      "payment_date": "2026-12-04",
+      "planted_error": "none",
+      "recoverable": "0",
+      "service_date": "2026-11-16",
+      "variance": "0"
+    },
+    "LC2026004-005-2": {
+      "claim_id": "LC2026004-005",
+      "code": "11102",
+      "contract_id": "LC-2026-004",
+      "expected_allowed": "199.10",
+      "label": "underpaid",
+      "line_id": "LC2026004-005-2",
+      "payer_allowed": "132.73",
+      "payment_date": "2026-12-04",
+      "planted_error": "modifier_ignored",
+      "recoverable": "66.37",
+      "service_date": "2026-11-16",
+      "variance": "66.37"
+    },
+    "LC2026004-005-3": {
+      "claim_id": "LC2026004-005",
+      "code": "29881",
+      "contract_id": "LC-2026-004",
+      "expected_allowed": "682.24",
+      "label": "correct",
+      "line_id": "LC2026004-005-3",
+      "payer_allowed": "682.24",
+      "payment_date": "2026-12-04",
+      "planted_error": "none",
+      "recoverable": "0",
+      "service_date": "2026-11-16",
+      "variance": "0"
+    },
+    "LC2026004-005-4": {
+      "claim_id": "LC2026004-005",
+      "code": "17000",
+      "contract_id": "LC-2026-004",
+      "expected_allowed": "45.14",
+      "label": "correct",
+      "line_id": "LC2026004-005-4",
+      "payer_allowed": "45.14",
+      "payment_date": "2026-12-04",
+      "planted_error": "none",
+      "recoverable": "0",
+      "service_date": "2026-11-16",
+      "variance": "0"
+    },
+    "LC2026004-006-1": {
+      "claim_id": "LC2026004-006",
+      "code": "99214",
+      "contract_id": "LC-2026-004",
+      "expected_allowed": "145.25",
+      "label": "correct",
+      "line_id": "LC2026004-006-1",
+      "payer_allowed": "145.25",
+      "payment_date": "2026-03-06",
+      "planted_error": "none",
+      "recoverable": "0",
+      "service_date": "2026-01-31",
+      "variance": "0"
+    },
+    "LC2026004-006-2": {
+      "claim_id": "LC2026004-006",
+      "code": "20610",
+      "contract_id": "LC-2026-004",
+      "expected_allowed": "38.19",
+      "label": "correct",
+      "line_id": "LC2026004-006-2",
+      "payer_allowed": "38.19",
+      "payment_date": "2026-03-06",
+      "planted_error": "none",
+      "recoverable": "0",
+      "service_date": "2026-01-31",
+      "variance": "0"
+    },
+    "LC2026004-006-3": {
+      "claim_id": "LC2026004-006",
+      "code": "29880",
+      "contract_id": "LC-2026-004",
+      "expected_allowed": "571.05",
+      "label": "correct",
+      "line_id": "LC2026004-006-3",
+      "payer_allowed": "571.05",
+      "payment_date": "2026-03-06",
+      "planted_error": "none",
+      "recoverable": "0",
+      "service_date": "2026-01-31",
+      "variance": "0"
+    },
+    "LC2026004-007-1": {
+      "claim_id": "LC2026004-007",
+      "code": "99214",
+      "contract_id": "LC-2026-004",
+      "expected_allowed": "159.45",
+      "label": "correct",
+      "line_id": "LC2026004-007-1",
+      "payer_allowed": "159.45",
+      "payment_date": "2026-09-04",
+      "planted_error": "none",
+      "recoverable": "0",
+      "service_date": "2026-07-22",
+      "variance": "0"
+    },
+    "LC2026004-007-2": {
+      "claim_id": "LC2026004-007",
+      "code": "20610",
+      "contract_id": "LC-2026-004",
+      "expected_allowed": "41.80",
+      "label": "correct",
+      "line_id": "LC2026004-007-2",
+      "payer_allowed": "41.80",
+      "payment_date": "2026-09-04",
+      "planted_error": "none",
+      "recoverable": "0",
+      "service_date": "2026-07-22",
+      "variance": "0"
+    },
+    "LC2026004-007-3": {
+      "claim_id": "LC2026004-007",
+      "code": "20611",
+      "contract_id": "LC-2026-004",
+      "expected_allowed": "128.05",
+      "label": "correct",
+      "line_id": "LC2026004-007-3",
+      "payer_allowed": "128.05",
+      "payment_date": "2026-09-04",
+      "planted_error": "none",
+      "recoverable": "0",
+      "service_date": "2026-07-22",
+      "variance": "0"
+    },
+    "LC2026004-008-1": {
+      "claim_id": "LC2026004-008",
+      "code": "11102",
+      "contract_id": "LC-2026-004",
+      "expected_allowed": "199.10",
+      "label": "correct",
+      "line_id": "LC2026004-008-1",
+      "payer_allowed": "199.10",
+      "payment_date": "2026-10-16",
+      "planted_error": "none",
+      "recoverable": "0",
+      "service_date": "2026-08-29",
+      "variance": "0"
+    },
+    "LC2026004-009-1": {
+      "claim_id": "LC2026004-009",
+      "code": "99214",
+      "contract_id": "LC-2026-004",
+      "expected_allowed": "159.45",
+      "label": "overpaid",
+      "line_id": "LC2026004-009-1",
+      "payer_allowed": "172.21",
+      "payment_date": "2026-07-24",
+      "planted_error": "overpaid",
+      "recoverable": "0",
+      "service_date": "2026-06-04",
+      "variance": "-12.76"
+    },
+    "LC2026004-009-2": {
+      "claim_id": "LC2026004-009",
+      "code": "11042",
+      "contract_id": "LC-2026-004",
+      "expected_allowed": "157.69",
+      "label": "overpaid",
+      "line_id": "LC2026004-009-2",
+      "payer_allowed": "163.76",
+      "payment_date": "2026-07-24",
+      "planted_error": "overpaid",
+      "recoverable": "0",
+      "service_date": "2026-06-04",
+      "variance": "-6.07"
+    },
+    "LC2026004-010-1": {
+      "claim_id": "LC2026004-010",
+      "code": "99213",
+      "contract_id": "LC-2026-004",
+      "expected_allowed": "119.99",
+      "label": "correct",
+      "line_id": "LC2026004-010-1",
+      "payer_allowed": "119.99",
+      "payment_date": "2026-08-14",
+      "planted_error": "none",
+      "recoverable": "0",
+      "service_date": "2026-07-17",
+      "variance": "0"
+    },
+    "LC2026004-010-2": {
+      "claim_id": "LC2026004-010",
+      "code": "11102",
+      "contract_id": "LC-2026-004",
+      "expected_allowed": "199.10",
+      "label": "correct",
+      "line_id": "LC2026004-010-2",
+      "payer_allowed": "199.10",
+      "payment_date": "2026-08-14",
+      "planted_error": "none",
+      "recoverable": "0",
+      "service_date": "2026-07-17",
+      "variance": "0"
+    },
+    "LC2026004-010-3": {
+      "claim_id": "LC2026004-010",
+      "code": "20611",
+      "contract_id": "LC-2026-004",
+      "expected_allowed": "64.03",
+      "label": "correct",
+      "line_id": "LC2026004-010-3",
+      "payer_allowed": "64.03",
+      "payment_date": "2026-08-14",
+      "planted_error": "none",
+      "recoverable": "0",
+      "service_date": "2026-07-17",
+      "variance": "0"
+    },
+    "LC2026004-010-4": {
+      "claim_id": "LC2026004-010",
+      "code": "20610",
+      "contract_id": "LC-2026-004",
+      "expected_allowed": "41.80",
+      "label": "correct",
+      "line_id": "LC2026004-010-4",
+      "payer_allowed": "41.80",
+      "payment_date": "2026-08-14",
+      "planted_error": "none",
+      "recoverable": "0",
+      "service_date": "2026-07-17",
+      "variance": "0"
+    },
+    "LC2026008-001-1": {
+      "claim_id": "LC2026008-001",
+      "code": "29881",
+      "contract_id": "LC-2026-008",
+      "expected_allowed": "820.00",
+      "label": "correct",
+      "line_id": "LC2026008-001-1",
+      "payer_allowed": "820.00",
+      "payment_date": "2026-02-13",
+      "planted_error": "none",
+      "recoverable": "0",
+      "service_date": "2026-01-13",
+      "variance": "0"
+    },
+    "LC2026008-002-1": {
+      "claim_id": "LC2026008-002",
+      "code": "99213",
+      "contract_id": "LC-2026-008",
+      "expected_allowed": "115.38",
+      "label": "correct",
+      "line_id": "LC2026008-002-1",
+      "payer_allowed": "115.38",
+      "payment_date": "2026-02-27",
+      "planted_error": "none",
+      "recoverable": "0",
+      "service_date": "2026-01-08",
+      "variance": "0"
+    },
+    "LC2026008-002-2": {
+      "claim_id": "LC2026008-002",
+      "code": "71046",
+      "contract_id": "LC-2026-008",
+      "expected_allowed": "39.50",
+      "label": "correct",
+      "line_id": "LC2026008-002-2",
+      "payer_allowed": "39.50",
+      "payment_date": "2026-02-27",
+      "planted_error": "none",
+      "recoverable": "0",
+      "service_date": "2026-01-08",
+      "variance": "0"
+    },
+    "LC2026008-002-3": {
+      "claim_id": "LC2026008-002",
+      "code": "20610",
+      "contract_id": "LC-2026-008",
+      "expected_allowed": "79.09",
+      "label": "overpaid",
+      "line_id": "LC2026008-002-3",
+      "payer_allowed": "80.38",
+      "payment_date": "2026-02-27",
+      "planted_error": "fee_row_ignored",
+      "recoverable": "0",
+      "service_date": "2026-01-08",
+      "variance": "-1.29"
+    },
+    "LC2026008-003-1": {
+      "claim_id": "LC2026008-003",
+      "code": "99213",
+      "contract_id": "LC-2026-008",
+      "expected_allowed": "115.38",
+      "label": "correct",
+      "line_id": "LC2026008-003-1",
+      "payer_allowed": "115.38",
+      "payment_date": "2026-08-28",
+      "planted_error": "none",
+      "recoverable": "0",
+      "service_date": "2026-08-05",
+      "variance": "0"
+    },
+    "LC2026008-003-2": {
+      "claim_id": "LC2026008-003",
+      "code": "93000",
+      "contract_id": "LC-2026-008",
+      "expected_allowed": "21.63",
+      "label": "correct",
+      "line_id": "LC2026008-003-2",
+      "payer_allowed": "21.63",
+      "payment_date": "2026-08-28",
+      "planted_error": "none",
+      "recoverable": "0",
+      "service_date": "2026-08-05",
+      "variance": "0"
+    },
+    "LC2026008-004-1": {
+      "claim_id": "LC2026008-004",
+      "code": "99213",
+      "contract_id": "LC-2026-008",
+      "expected_allowed": "115.38",
+      "label": "correct",
+      "line_id": "LC2026008-004-1",
+      "payer_allowed": "115.38",
+      "payment_date": "2026-08-21",
+      "planted_error": "none",
+      "recoverable": "0",
+      "service_date": "2026-07-23",
+      "variance": "0"
+    },
+    "LC2026008-004-2": {
+      "claim_id": "LC2026008-004",
+      "code": "29880",
+      "contract_id": "LC-2026-008",
+      "expected_allowed": "609.62",
+      "label": "correct",
+      "line_id": "LC2026008-004-2",
+      "payer_allowed": "609.62",
+      "payment_date": "2026-08-21",
+      "planted_error": "none",
+      "recoverable": "0",
+      "service_date": "2026-07-23",
+      "variance": "0"
+    },
+    "LC2026008-005-1": {
+      "claim_id": "LC2026008-005",
+      "code": "29880",
+      "contract_id": "LC-2026-008",
+      "expected_allowed": "609.62",
+      "label": "correct",
+      "line_id": "LC2026008-005-1",
+      "payer_allowed": "609.62",
+      "payment_date": "2026-09-18",
+      "planted_error": "none",
+      "recoverable": "0",
+      "service_date": "2026-08-03",
+      "variance": "0"
+    },
+    "LC2026008-005-2": {
+      "claim_id": "LC2026008-005",
+      "code": "64483",
+      "contract_id": "LC-2026-008",
+      "expected_allowed": "372.03",
+      "label": "underpaid",
+      "line_id": "LC2026008-005-2",
+      "payer_allowed": "297.63",
+      "payment_date": "2026-09-18",
+      "planted_error": "modifier_ignored",
+      "recoverable": "74.40",
+      "service_date": "2026-08-03",
+      "variance": "74.40"
+    },
+    "LC2026008-006-1": {
+      "claim_id": "LC2026008-006",
+      "code": "29880",
+      "contract_id": "LC-2026-008",
+      "expected_allowed": "609.62",
+      "label": "correct",
+      "line_id": "LC2026008-006-1",
+      "payer_allowed": "609.62",
+      "payment_date": "2026-10-16",
+      "planted_error": "none",
+      "recoverable": "0",
+      "service_date": "2026-08-22",
+      "variance": "0"
+    },
+    "LC2026008-007-1": {
+      "claim_id": "LC2026008-007",
+      "code": "99213",
+      "contract_id": "LC-2026-008",
+      "expected_allowed": "115.38",
+      "label": "correct",
+      "line_id": "LC2026008-007-1",
+      "payer_allowed": "115.38",
+      "payment_date": "2026-12-18",
+      "planted_error": "none",
+      "recoverable": "0",
+      "service_date": "2026-11-15",
+      "variance": "0"
+    },
+    "LC2026008-007-2": {
+      "claim_id": "LC2026008-007",
+      "code": "29880",
+      "contract_id": "LC-2026-008",
+      "expected_allowed": "609.62",
+      "label": "correct",
+      "line_id": "LC2026008-007-2",
+      "payer_allowed": "609.62",
+      "payment_date": "2026-12-18",
+      "planted_error": "none",
+      "recoverable": "0",
+      "service_date": "2026-11-15",
+      "variance": "0"
+    },
+    "LC2026008-007-3": {
+      "claim_id": "LC2026008-007",
+      "code": "64483",
+      "contract_id": "LC-2026-008",
+      "expected_allowed": "297.63",
+      "label": "correct",
+      "line_id": "LC2026008-007-3",
+      "payer_allowed": "297.63",
+      "payment_date": "2026-12-18",
+      "planted_error": "none",
+      "recoverable": "0",
+      "service_date": "2026-11-15",
+      "variance": "0"
+    },
+    "LC2026008-008-1": {
+      "claim_id": "LC2026008-008",
+      "code": "99214",
+      "contract_id": "LC-2026-008",
+      "expected_allowed": "163.38",
+      "label": "correct",
+      "line_id": "LC2026008-008-1",
+      "payer_allowed": "163.38",
+      "payment_date": "2026-05-15",
+      "planted_error": "none",
+      "recoverable": "0",
+      "service_date": "2026-04-10",
+      "variance": "0"
+    },
+    "LC2026008-008-2": {
+      "claim_id": "LC2026008-008",
+      "code": "11042",
+      "contract_id": "LC-2026-008",
+      "expected_allowed": "151.63",
+      "label": "correct",
+      "line_id": "LC2026008-008-2",
+      "payer_allowed": "151.63",
+      "payment_date": "2026-05-15",
+      "planted_error": "none",
+      "recoverable": "0",
+      "service_date": "2026-04-10",
+      "variance": "0"
+    },
+    "LC2026008-008-3": {
+      "claim_id": "LC2026008-008",
+      "code": "20610",
+      "contract_id": "LC-2026-008",
+      "expected_allowed": "59.32",
+      "label": "overpaid",
+      "line_id": "LC2026008-008-3",
+      "payer_allowed": "60.28",
+      "payment_date": "2026-05-15",
+      "planted_error": "fee_row_ignored",
+      "recoverable": "0",
+      "service_date": "2026-04-10",
+      "variance": "-0.96"
+    },
+    "LC2026008-009-1": {
+      "claim_id": "LC2026008-009",
+      "code": "99214",
+      "contract_id": "LC-2026-008",
+      "expected_allowed": "163.38",
+      "label": "correct",
+      "line_id": "LC2026008-009-1",
+      "payer_allowed": "163.38",
+      "payment_date": "2026-04-24",
+      "planted_error": "none",
+      "recoverable": "0",
+      "service_date": "2026-03-16",
+      "variance": "0"
+    },
+    "LC2026008-009-2": {
+      "claim_id": "LC2026008-009",
+      "code": "29880",
+      "contract_id": "LC-2026-008",
+      "expected_allowed": "609.62",
+      "label": "correct",
+      "line_id": "LC2026008-009-2",
+      "payer_allowed": "609.62",
+      "payment_date": "2026-04-24",
+      "planted_error": "none",
+      "recoverable": "0",
+      "service_date": "2026-03-16",
+      "variance": "0"
+    },
+    "LC2026008-009-3": {
+      "claim_id": "LC2026008-009",
+      "code": "64483",
+      "contract_id": "LC-2026-008",
+      "expected_allowed": "297.63",
+      "label": "correct",
+      "line_id": "LC2026008-009-3",
+      "payer_allowed": "297.63",
+      "payment_date": "2026-04-24",
+      "planted_error": "none",
+      "recoverable": "0",
+      "service_date": "2026-03-16",
+      "variance": "0"
+    },
+    "LC2026008-009-4": {
+      "claim_id": "LC2026008-009",
+      "code": "11102",
+      "contract_id": "LC-2026-008",
+      "expected_allowed": "81.17",
+      "label": "overpaid",
+      "line_id": "LC2026008-009-4",
+      "payer_allowed": "95.72",
+      "payment_date": "2026-04-24",
+      "planted_error": "fee_row_ignored",
+      "recoverable": "0",
+      "service_date": "2026-03-16",
+      "variance": "-14.55"
+    },
+    "LC2026008-010-1": {
+      "claim_id": "LC2026008-010",
+      "code": "99215",
+      "contract_id": "LC-2026-008",
+      "expected_allowed": "229.75",
+      "label": "correct",
+      "line_id": "LC2026008-010-1",
+      "payer_allowed": "229.75",
+      "payment_date": "2026-05-29",
+      "planted_error": "none",
+      "recoverable": "0",
+      "service_date": "2026-05-06",
+      "variance": "0"
+    },
+    "NW2026001-001-1": {
+      "claim_id": "NW2026001-001",
+      "code": "99214",
+      "contract_id": "NW-2026-001",
+      "expected_allowed": "156.84",
+      "label": "overpaid",
+      "line_id": "NW2026001-001-1",
+      "payer_allowed": "163.38",
+      "payment_date": "2026-06-12",
+      "planted_error": "overpaid",
+      "recoverable": "0",
+      "service_date": "2026-04-17",
+      "variance": "-6.54"
+    },
+    "NW2026001-001-2": {
+      "claim_id": "NW2026001-001",
+      "code": "93000",
+      "contract_id": "NW-2026-001",
+      "expected_allowed": "20.76",
+      "label": "overpaid",
+      "line_id": "NW2026001-001-2",
+      "payer_allowed": "21.63",
+      "payment_date": "2026-06-12",
+      "planted_error": "overpaid",
+      "recoverable": "0",
+      "service_date": "2026-04-17",
+      "variance": "-0.87"
+    },
+    "NW2026001-002-1": {
+      "claim_id": "NW2026001-002",
+      "code": "99214",
+      "contract_id": "NW-2026-001",
+      "expected_allowed": "156.84",
+      "label": "correct",
+      "line_id": "NW2026001-002-1",
+      "payer_allowed": "156.84",
+      "payment_date": "2026-10-02",
+      "planted_error": "none",
+      "recoverable": "0",
+      "service_date": "2026-08-25",
+      "variance": "0"
+    },
+    "NW2026001-002-2": {
+      "claim_id": "NW2026001-002",
+      "code": "29880",
+      "contract_id": "NW-2026-001",
+      "expected_allowed": "665.04",
+      "label": "correct",
+      "line_id": "NW2026001-002-2",
+      "payer_allowed": "665.04",
+      "payment_date": "2026-10-02",
+      "planted_error": "none",
+      "recoverable": "0",
+      "service_date": "2026-08-25",
+      "variance": "0"
+    },
+    "NW2026001-003-1": {
+      "claim_id": "NW2026001-003",
+      "code": "17000",
+      "contract_id": "NW-2026-001",
+      "expected_allowed": "158.16",
+      "label": "correct",
+      "line_id": "NW2026001-003-1",
+      "payer_allowed": "158.16",
+      "payment_date": "2026-07-10",
+      "planted_error": "none",
+      "recoverable": "0",
+      "service_date": "2026-05-29",
+      "variance": "0"
+    },
+    "NW2026001-003-2": {
+      "claim_id": "NW2026001-003",
+      "code": "29880",
+      "contract_id": "NW-2026-001",
+      "expected_allowed": "665.04",
+      "label": "correct",
+      "line_id": "NW2026001-003-2",
+      "payer_allowed": "665.04",
+      "payment_date": "2026-07-10",
+      "planted_error": "none",
+      "recoverable": "0",
+      "service_date": "2026-05-29",
+      "variance": "0"
+    },
+    "NW2026001-003-3": {
+      "claim_id": "NW2026001-003",
+      "code": "11102",
+      "contract_id": "NW-2026-001",
+      "expected_allowed": "111.29",
+      "label": "correct",
+      "line_id": "NW2026001-003-3",
+      "payer_allowed": "111.29",
+      "payment_date": "2026-07-10",
+      "planted_error": "none",
+      "recoverable": "0",
+      "service_date": "2026-05-29",
+      "variance": "0"
+    },
+    "NW2026001-004-1": {
+      "claim_id": "NW2026001-004",
+      "code": "99213",
+      "contract_id": "NW-2026-001",
+      "expected_allowed": "110.76",
+      "label": "overpaid",
+      "line_id": "NW2026001-004-1",
+      "payer_allowed": "115.38",
+      "payment_date": "2026-03-27",
+      "planted_error": "overpaid",
+      "recoverable": "0",
+      "service_date": "2026-02-21",
+      "variance": "-4.62"
+    },
+    "NW2026001-004-2": {
+      "claim_id": "NW2026001-004",
+      "code": "93000",
+      "contract_id": "NW-2026-001",
+      "expected_allowed": "20.76",
+      "label": "overpaid",
+      "line_id": "NW2026001-004-2",
+      "payer_allowed": "21.63",
+      "payment_date": "2026-03-27",
+      "planted_error": "overpaid",
+      "recoverable": "0",
+      "service_date": "2026-02-21",
+      "variance": "-0.87"
+    },
+    "NW2026001-005-1": {
+      "claim_id": "NW2026001-005",
+      "code": "99214",
+      "contract_id": "NW-2026-001",
+      "expected_allowed": "156.84",
+      "label": "overpaid",
+      "line_id": "NW2026001-005-1",
+      "payer_allowed": "163.38",
+      "payment_date": "2026-05-01",
+      "planted_error": "overpaid",
+      "recoverable": "0",
+      "service_date": "2026-04-09",
+      "variance": "-6.54"
+    },
+    "NW2026001-005-2": {
+      "claim_id": "NW2026001-005",
+      "code": "20610",
+      "contract_id": "NW-2026-001",
+      "expected_allowed": "77.16",
+      "label": "overpaid",
+      "line_id": "NW2026001-005-2",
+      "payer_allowed": "80.38",
+      "payment_date": "2026-05-01",
+      "planted_error": "overpaid",
+      "recoverable": "0",
+      "service_date": "2026-04-09",
+      "variance": "-3.22"
+    },
+    "NW2026001-005-3": {
+      "claim_id": "NW2026001-005",
+      "code": "29880",
+      "contract_id": "NW-2026-001",
+      "expected_allowed": "665.04",
+      "label": "overpaid",
+      "line_id": "NW2026001-005-3",
+      "payer_allowed": "692.75",
+      "payment_date": "2026-05-01",
+      "planted_error": "overpaid",
+      "recoverable": "0",
+      "service_date": "2026-04-09",
+      "variance": "-27.71"
+    },
+    "NW2026001-005-4": {
+      "claim_id": "NW2026001-005",
+      "code": "17000",
+      "contract_id": "NW-2026-001",
+      "expected_allowed": "79.08",
+      "label": "overpaid",
+      "line_id": "NW2026001-005-4",
+      "payer_allowed": "82.38",
+      "payment_date": "2026-05-01",
+      "planted_error": "overpaid",
+      "recoverable": "0",
+      "service_date": "2026-04-09",
+      "variance": "-3.30"
+    },
+    "NW2026001-006-1": {
+      "claim_id": "NW2026001-006",
+      "code": "64483",
+      "contract_id": "NW-2026-001",
+      "expected_allowed": "428.58",
+      "label": "correct",
+      "line_id": "NW2026001-006-1",
+      "payer_allowed": "428.58",
+      "payment_date": "2026-04-10",
+      "planted_error": "none",
+      "recoverable": "0",
+      "service_date": "2026-03-07",
+      "variance": "0"
+    },
+    "NW2026001-006-2": {
+      "claim_id": "NW2026001-006",
+      "code": "29881",
+      "contract_id": "NW-2026-001",
+      "expected_allowed": "629.76",
+      "label": "correct",
+      "line_id": "NW2026001-006-2",
+      "payer_allowed": "629.76",
+      "payment_date": "2026-04-10",
+      "planted_error": "none",
+      "recoverable": "0",
+      "service_date": "2026-03-07",
+      "variance": "0"
+    },
+    "NW2026001-007-1": {
+      "claim_id": "NW2026001-007",
+      "code": "20610",
+      "contract_id": "NW-2026-001",
+      "expected_allowed": "115.74",
+      "label": "underpaid",
+      "line_id": "NW2026001-007-1",
+      "payer_allowed": "57.87",
+      "payment_date": "2026-03-20",
+      "planted_error": "mpr_misapplied",
+      "recoverable": "57.87",
+      "service_date": "2026-02-01",
+      "variance": "57.87"
+    },
+    "NW2026001-007-2": {
+      "claim_id": "NW2026001-007",
+      "code": "29881",
+      "contract_id": "NW-2026-001",
+      "expected_allowed": "629.76",
+      "label": "correct",
+      "line_id": "NW2026001-007-2",
+      "payer_allowed": "629.76",
+      "payment_date": "2026-03-20",
+      "planted_error": "none",
+      "recoverable": "0",
+      "service_date": "2026-02-01",
+      "variance": "0"
+    },
+    "NW2026001-008-1": {
+      "claim_id": "NW2026001-008",
+      "code": "99214",
+      "contract_id": "NW-2026-001",
+      "expected_allowed": "156.84",
+      "label": "underpaid",
+      "line_id": "NW2026001-008-1",
+      "payer_allowed": "143.77",
+      "payment_date": "2026-03-20",
+      "planted_error": "wrong_pct",
+      "recoverable": "13.07",
+      "service_date": "2026-02-10",
+      "variance": "13.07"
+    },
+    "NW2026001-008-2": {
+      "claim_id": "NW2026001-008",
+      "code": "17000",
+      "contract_id": "NW-2026-001",
+      "expected_allowed": "158.16",
+      "label": "underpaid",
+      "line_id": "NW2026001-008-2",
+      "payer_allowed": "144.98",
+      "payment_date": "2026-03-20",
+      "planted_error": "wrong_pct",
+      "recoverable": "13.18",
+      "service_date": "2026-02-10",
+      "variance": "13.18"
+    },
+    "NW2026001-009-1": {
+      "claim_id": "NW2026001-009",
+      "code": "99214",
+      "contract_id": "NW-2026-001",
+      "expected_allowed": "156.84",
+      "label": "correct",
+      "line_id": "NW2026001-009-1",
+      "payer_allowed": "156.84",
+      "payment_date": "2026-08-21",
+      "planted_error": "none",
+      "recoverable": "0",
+      "service_date": "2026-07-13",
+      "variance": "0"
+    },
+    "NW2026001-009-2": {
+      "claim_id": "NW2026001-009",
+      "code": "29881",
+      "contract_id": "NW-2026-001",
+      "expected_allowed": "629.76",
+      "label": "correct",
+      "line_id": "NW2026001-009-2",
+      "payer_allowed": "629.76",
+      "payment_date": "2026-08-21",
+      "planted_error": "none",
+      "recoverable": "0",
+      "service_date": "2026-07-13",
+      "variance": "0"
+    },
+    "NW2026001-009-3": {
+      "claim_id": "NW2026001-009",
+      "code": "17000",
+      "contract_id": "NW-2026-001",
+      "expected_allowed": "79.08",
+      "label": "correct",
+      "line_id": "NW2026001-009-3",
+      "payer_allowed": "79.08",
+      "payment_date": "2026-08-21",
+      "planted_error": "none",
+      "recoverable": "0",
+      "service_date": "2026-07-13",
+      "variance": "0"
+    },
+    "NW2026001-009-4": {
+      "claim_id": "NW2026001-009",
+      "code": "29880",
+      "contract_id": "NW-2026-001",
+      "expected_allowed": "665.04",
+      "label": "correct",
+      "line_id": "NW2026001-009-4",
+      "payer_allowed": "665.04",
+      "payment_date": "2026-08-21",
+      "planted_error": "none",
+      "recoverable": "0",
+      "service_date": "2026-07-13",
+      "variance": "0"
+    },
+    "NW2026001-010-1": {
+      "claim_id": "NW2026001-010",
+      "code": "99213",
+      "contract_id": "NW-2026-001",
+      "expected_allowed": "110.76",
+      "label": "correct",
+      "line_id": "NW2026001-010-1",
+      "payer_allowed": "110.76",
+      "payment_date": "2026-08-21",
+      "planted_error": "none",
+      "recoverable": "0",
+      "service_date": "2026-07-07",
+      "variance": "0"
+    },
+    "NW2026001-010-2": {
+      "claim_id": "NW2026001-010",
+      "code": "73721",
+      "contract_id": "NW-2026-001",
+      "expected_allowed": "246.11",
+      "label": "overpaid",
+      "line_id": "NW2026001-010-2",
+      "payer_allowed": "261.36",
+      "payment_date": "2026-08-21",
+      "planted_error": "fee_row_ignored",
+      "recoverable": "0",
+      "service_date": "2026-07-07",
+      "variance": "-15.25"
+    },
+    "NW2026005-001-1": {
+      "claim_id": "NW2026005-001",
+      "code": "99214",
+      "contract_id": "NW-2026-005",
+      "expected_allowed": "182.98",
+      "label": "correct",
+      "line_id": "NW2026005-001-1",
+      "payer_allowed": "182.98",
+      "payment_date": "2026-05-15",
+      "planted_error": "none",
+      "recoverable": "0",
+      "service_date": "2026-03-31",
+      "variance": "0"
+    },
+    "NW2026005-001-2": {
+      "claim_id": "NW2026005-001",
+      "code": "29881",
+      "contract_id": "NW-2026-005",
+      "expected_allowed": "624.51",
+      "label": "correct",
+      "line_id": "NW2026005-001-2",
+      "payer_allowed": "624.51",
+      "payment_date": "2026-05-15",
+      "planted_error": "none",
+      "recoverable": "0",
+      "service_date": "2026-03-31",
+      "variance": "0"
+    },
+    "NW2026005-001-3": {
+      "claim_id": "NW2026005-001",
+      "code": "11042",
+      "contract_id": "NW-2026-005",
+      "expected_allowed": "254.73",
+      "label": "underpaid",
+      "line_id": "NW2026005-001-3",
+      "payer_allowed": "169.82",
+      "payment_date": "2026-05-15",
+      "planted_error": "modifier_ignored",
+      "recoverable": "84.91",
+      "service_date": "2026-03-31",
+      "variance": "84.91"
+    },
+    "NW2026005-002-1": {
+      "claim_id": "NW2026005-002",
+      "code": "99203",
+      "contract_id": "NW-2026-005",
+      "expected_allowed": "159.04",
+      "label": "correct",
+      "line_id": "NW2026005-002-1",
+      "payer_allowed": "159.04",
+      "payment_date": "2026-10-02",
+      "planted_error": "none",
+      "recoverable": "0",
+      "service_date": "2026-08-17",
+      "variance": "0"
+    },
+    "NW2026005-002-2": {
+      "claim_id": "NW2026005-002",
+      "code": "71046",
+      "contract_id": "NW-2026-005",
+      "expected_allowed": "44.24",
+      "label": "correct",
+      "line_id": "NW2026005-002-2",
+      "payer_allowed": "44.24",
+      "payment_date": "2026-10-02",
+      "planted_error": "none",
+      "recoverable": "0",
+      "service_date": "2026-08-17",
+      "variance": "0"
+    },
+    "NW2026005-003-1": {
+      "claim_id": "NW2026005-003",
+      "code": "99213",
+      "contract_id": "NW-2026-005",
+      "expected_allowed": "95.07",
+      "label": "overpaid",
+      "line_id": "NW2026005-003-1",
+      "payer_allowed": "129.22",
+      "payment_date": "2026-03-13",
+      "planted_error": "fee_row_ignored",
+      "recoverable": "0",
+      "service_date": "2026-01-30",
+      "variance": "-34.15"
+    },
+    "NW2026005-003-2": {
+      "claim_id": "NW2026005-003",
+      "code": "20610",
+      "contract_id": "NW-2026-005",
+      "expected_allowed": "90.02",
+      "label": "correct",
+      "line_id": "NW2026005-003-2",
+      "payer_allowed": "90.02",
+      "payment_date": "2026-03-13",
+      "planted_error": "none",
+      "recoverable": "0",
+      "service_date": "2026-01-30",
+      "variance": "0"
+    },
+    "NW2026005-003-3": {
+      "claim_id": "NW2026005-003",
+      "code": "17000",
+      "contract_id": "NW-2026-005",
+      "expected_allowed": "75.13",
+      "label": "overpaid",
+      "line_id": "NW2026005-003-3",
+      "payer_allowed": "92.26",
+      "payment_date": "2026-03-13",
+      "planted_error": "fee_row_ignored",
+      "recoverable": "0",
+      "service_date": "2026-01-30",
+      "variance": "-17.13"
+    },
+    "NW2026005-004-1": {
+      "claim_id": "NW2026005-004",
+      "code": "99213",
+      "contract_id": "NW-2026-005",
+      "expected_allowed": "100.77",
+      "label": "correct",
+      "line_id": "NW2026005-004-1",
+      "payer_allowed": "100.77",
+      "payment_date": "2026-08-21",
+      "planted_error": "none",
+      "recoverable": "0",
+      "service_date": "2026-06-27",
+      "variance": "0"
+    },
+    "NW2026005-004-2": {
+      "claim_id": "NW2026005-004",
+      "code": "93000",
+      "contract_id": "NW-2026-005",
+      "expected_allowed": "24.22",
+      "label": "correct",
+      "line_id": "NW2026005-004-2",
+      "payer_allowed": "24.22",
+      "payment_date": "2026-08-21",
+      "planted_error": "none",
+      "recoverable": "0",
+      "service_date": "2026-06-27",
+      "variance": "0"
+    },
+    "NW2026005-005-1": {
+      "claim_id": "NW2026005-005",
+      "code": "99214",
+      "contract_id": "NW-2026-005",
+      "expected_allowed": "182.98",
+      "label": "correct",
+      "line_id": "NW2026005-005-1",
+      "payer_allowed": "182.98",
+      "payment_date": "2026-05-08",
+      "planted_error": "none",
+      "recoverable": "0",
+      "service_date": "2026-03-19",
+      "variance": "0"
+    },
+    "NW2026005-005-2": {
+      "claim_id": "NW2026005-005",
+      "code": "29880",
+      "contract_id": "NW-2026-005",
+      "expected_allowed": "775.88",
+      "label": "correct",
+      "line_id": "NW2026005-005-2",
+      "payer_allowed": "775.88",
+      "payment_date": "2026-05-08",
+      "planted_error": "none",
+      "recoverable": "0",
+      "service_date": "2026-03-19",
+      "variance": "0"
+    },
+    "NW2026005-006-1": {
+      "claim_id": "NW2026005-006",
+      "code": "99214",
+      "contract_id": "NW-2026-005",
+      "expected_allowed": "182.98",
+      "label": "correct",
+      "line_id": "NW2026005-006-1",
+      "payer_allowed": "182.98",
+      "payment_date": "2026-09-04",
+      "planted_error": "none",
+      "recoverable": "0",
+      "service_date": "2026-07-19",
+      "variance": "0"
+    },
+    "NW2026005-007-1": {
+      "claim_id": "NW2026005-007",
+      "code": "29881",
+      "contract_id": "NW-2026-005",
+      "expected_allowed": "624.51",
+      "label": "correct",
+      "line_id": "NW2026005-007-1",
+      "payer_allowed": "624.51",
+      "payment_date": "2026-03-27",
+      "planted_error": "none",
+      "recoverable": "0",
+      "service_date": "2026-02-26",
+      "variance": "0"
+    },
+    "NW2026005-007-2": {
+      "claim_id": "NW2026005-007",
+      "code": "11102",
+      "contract_id": "NW-2026-005",
+      "expected_allowed": "142.94",
+      "label": "underpaid",
+      "line_id": "NW2026005-007-2",
+      "payer_allowed": "71.47",
+      "payment_date": "2026-03-27",
+      "planted_error": "mpr_misapplied",
+      "recoverable": "71.47",
+      "service_date": "2026-02-26",
+      "variance": "71.47"
+    },
+    "NW2026005-008-1": {
+      "claim_id": "NW2026005-008",
+      "code": "99214",
+      "contract_id": "NW-2026-005",
+      "expected_allowed": "182.98",
+      "label": "correct",
+      "line_id": "NW2026005-008-1",
+      "payer_allowed": "182.98",
+      "payment_date": "2026-08-14",
+      "planted_error": "none",
+      "recoverable": "0",
+      "service_date": "2026-07-21",
+      "variance": "0"
+    },
+    "NW2026005-008-2": {
+      "claim_id": "NW2026005-008",
+      "code": "29881",
+      "contract_id": "NW-2026-005",
+      "expected_allowed": "624.51",
+      "label": "correct",
+      "line_id": "NW2026005-008-2",
+      "payer_allowed": "624.51",
+      "payment_date": "2026-08-14",
+      "planted_error": "none",
+      "recoverable": "0",
+      "service_date": "2026-07-21",
+      "variance": "0"
+    },
+    "NW2026005-008-3": {
+      "claim_id": "NW2026005-008",
+      "code": "20610",
+      "contract_id": "NW-2026-005",
+      "expected_allowed": "90.02",
+      "label": "correct",
+      "line_id": "NW2026005-008-3",
+      "payer_allowed": "90.02",
+      "payment_date": "2026-08-14",
+      "planted_error": "none",
+      "recoverable": "0",
+      "service_date": "2026-07-21",
+      "variance": "0"
+    },
+    "NW2026005-009-1": {
+      "claim_id": "NW2026005-009",
+      "code": "99214",
+      "contract_id": "NW-2026-005",
+      "expected_allowed": "182.98",
+      "label": "correct",
+      "line_id": "NW2026005-009-1",
+      "payer_allowed": "182.98",
+      "payment_date": "2026-04-10",
+      "planted_error": "none",
+      "recoverable": "0",
+      "service_date": "2026-02-25",
+      "variance": "0"
+    },
+    "NW2026005-009-2": {
+      "claim_id": "NW2026005-009",
+      "code": "71046",
+      "contract_id": "NW-2026-005",
+      "expected_allowed": "44.24",
+      "label": "correct",
+      "line_id": "NW2026005-009-2",
+      "payer_allowed": "44.24",
+      "payment_date": "2026-04-10",
+      "planted_error": "none",
+      "recoverable": "0",
+      "service_date": "2026-02-25",
+      "variance": "0"
+    },
+    "NW2026005-010-1": {
+      "claim_id": "NW2026005-010",
+      "code": "99213",
+      "contract_id": "NW-2026-005",
+      "expected_allowed": "100.77",
+      "label": "correct",
+      "line_id": "NW2026005-010-1",
+      "payer_allowed": "100.77",
+      "payment_date": "2026-10-16",
+      "planted_error": "none",
+      "recoverable": "0",
+      "service_date": "2026-08-29",
+      "variance": "0"
+    },
+    "NW2026005-010-2": {
+      "claim_id": "NW2026005-010",
+      "code": "96372",
+      "contract_id": "NW-2026-005",
+      "expected_allowed": "22.12",
+      "label": "underpaid",
+      "line_id": "NW2026005-010-2",
+      "payer_allowed": "20.54",
+      "payment_date": "2026-10-16",
+      "planted_error": "wrong_pct",
+      "recoverable": "1.58",
+      "service_date": "2026-08-29",
+      "variance": "1.58"
+    },
+    "NW2026009-001-1": {
+      "claim_id": "NW2026009-001",
+      "code": "99213",
+      "contract_id": "NW-2026-009",
+      "expected_allowed": "94.29",
+      "label": "correct",
+      "line_id": "NW2026009-001-1",
+      "payer_allowed": "94.29",
+      "payment_date": "2026-11-06",
+      "planted_error": "none",
+      "recoverable": "0",
+      "service_date": "2026-10-11",
+      "variance": "0"
+    },
+    "NW2026009-001-2": {
+      "claim_id": "NW2026009-001",
+      "code": "11102",
+      "contract_id": "NW-2026-009",
+      "expected_allowed": "108.18",
+      "label": "correct",
+      "line_id": "NW2026009-001-2",
+      "payer_allowed": "108.18",
+      "payment_date": "2026-11-06",
+      "planted_error": "none",
+      "recoverable": "0",
+      "service_date": "2026-10-11",
+      "variance": "0"
+    },
+    "NW2026009-001-3": {
+      "claim_id": "NW2026009-001",
+      "code": "17000",
+      "contract_id": "NW-2026-009",
+      "expected_allowed": "34.04",
+      "label": "correct",
+      "line_id": "NW2026009-001-3",
+      "payer_allowed": "34.04",
+      "payment_date": "2026-11-06",
+      "planted_error": "none",
+      "recoverable": "0",
+      "service_date": "2026-10-11",
+      "variance": "0"
+    },
+    "NW2026009-002-1": {
+      "claim_id": "NW2026009-002",
+      "code": "99214",
+      "contract_id": "NW-2026-009",
+      "expected_allowed": "137.24",
+      "label": "correct",
+      "line_id": "NW2026009-002-1",
+      "payer_allowed": "137.24",
+      "payment_date": "2026-06-26",
+      "planted_error": "none",
+      "recoverable": "0",
+      "service_date": "2026-05-19",
+      "variance": "0"
+    },
+    "NW2026009-003-1": {
+      "claim_id": "NW2026009-003",
+      "code": "99213",
+      "contract_id": "NW-2026-009",
+      "expected_allowed": "101.53",
+      "label": "correct",
+      "line_id": "NW2026009-003-1",
+      "payer_allowed": "101.53",
+      "payment_date": "2026-05-15",
+      "planted_error": "none",
+      "recoverable": "0",
+      "service_date": "2026-04-03",
+      "variance": "0"
+    },
+    "NW2026009-003-2": {
+      "claim_id": "NW2026009-003",
+      "code": "29880",
+      "contract_id": "NW-2026-009",
+      "expected_allowed": "1097.31",
+      "label": "correct",
+      "line_id": "NW2026009-003-2",
+      "payer_allowed": "1097.31",
+      "payment_date": "2026-05-15",
+      "planted_error": "none",
+      "recoverable": "0",
+      "service_date": "2026-04-03",
+      "variance": "0"
+    },
+    "NW2026009-004-1": {
+      "claim_id": "NW2026009-004",
+      "code": "99213",
+      "contract_id": "NW-2026-009",
+      "expected_allowed": "110.76",
+      "label": "correct",
+      "line_id": "NW2026009-004-1",
+      "payer_allowed": "110.76",
+      "payment_date": "2026-12-04",
+      "planted_error": "none",
+      "recoverable": "0",
+      "service_date": "2026-11-05",
+      "variance": "0"
+    },
+    "NW2026009-004-2": {
+      "claim_id": "NW2026009-004",
+      "code": "96372",
+      "contract_id": "NW-2026-009",
+      "expected_allowed": "18.96",
+      "label": "correct",
+      "line_id": "NW2026009-004-2",
+      "payer_allowed": "18.96",
+      "payment_date": "2026-12-04",
+      "planted_error": "none",
+      "recoverable": "0",
+      "service_date": "2026-11-05",
+      "variance": "0"
+    },
+    "NW2026009-004-3": {
+      "claim_id": "NW2026009-004",
+      "code": "99212",
+      "contract_id": "NW-2026-009",
+      "expected_allowed": "84.66",
+      "label": "underpaid",
+      "line_id": "NW2026009-004-3",
+      "payer_allowed": "68.64",
+      "payment_date": "2026-12-04",
+      "planted_error": "fee_row_ignored",
+      "recoverable": "16.02",
+      "service_date": "2026-11-05",
+      "variance": "16.02"
+    },
+    "NW2026009-005-1": {
+      "claim_id": "NW2026009-005",
+      "code": "99214",
+      "contract_id": "NW-2026-009",
+      "expected_allowed": "137.24",
+      "label": "correct",
+      "line_id": "NW2026009-005-1",
+      "payer_allowed": "137.24",
+      "payment_date": "2026-06-26",
+      "planted_error": "none",
+      "recoverable": "0",
+      "service_date": "2026-05-17",
+      "variance": "0"
+    },
+    "NW2026009-005-2": {
+      "claim_id": "NW2026009-005",
+      "code": "99213",
+      "contract_id": "NW-2026-009",
+      "expected_allowed": "110.76",
+      "label": "underpaid",
+      "line_id": "NW2026009-005-2",
+      "payer_allowed": "101.53",
+      "payment_date": "2026-06-26",
+      "planted_error": "stale_rate",
+      "recoverable": "9.23",
+      "service_date": "2026-05-17",
+      "variance": "9.23"
+    },
+    "NW2026009-006-1": {
+      "claim_id": "NW2026009-006",
+      "code": "17000",
+      "contract_id": "NW-2026-009",
+      "expected_allowed": "94.90",
+      "label": "denial_valid",
+      "line_id": "NW2026009-006-1",
+      "payer_allowed": "0",
+      "payment_date": "2027-03-12",
+      "planted_error": "valid_timely_denial",
+      "recoverable": "0",
+      "service_date": "2026-11-06",
+      "variance": "94.90"
+    },
+    "NW2026009-006-2": {
+      "claim_id": "NW2026009-006",
+      "code": "11102",
+      "contract_id": "NW-2026-009",
+      "expected_allowed": "122.52",
+      "label": "denial_valid",
+      "line_id": "NW2026009-006-2",
+      "payer_allowed": "0",
+      "payment_date": "2027-03-12",
+      "planted_error": "valid_timely_denial",
+      "recoverable": "0",
+      "service_date": "2026-11-06",
+      "variance": "122.52"
+    },
+    "NW2026009-007-1": {
+      "claim_id": "NW2026009-007",
+      "code": "11042",
+      "contract_id": "NW-2026-009",
+      "expected_allowed": "200.15",
+      "label": "correct",
+      "line_id": "NW2026009-007-1",
+      "payer_allowed": "200.15",
+      "payment_date": "2026-03-20",
+      "planted_error": "none",
+      "recoverable": "0",
+      "service_date": "2026-02-16",
+      "variance": "0"
+    },
+    "NW2026009-007-2": {
+      "claim_id": "NW2026009-007",
+      "code": "99214",
+      "contract_id": "NW-2026-009",
+      "expected_allowed": "137.24",
+      "label": "overpaid",
+      "line_id": "NW2026009-007-2",
+      "payer_allowed": "143.77",
+      "payment_date": "2026-03-20",
+      "planted_error": "fee_row_ignored",
+      "recoverable": "0",
+      "service_date": "2026-02-16",
+      "variance": "-6.53"
+    },
+    "NW2026009-008-1": {
+      "claim_id": "NW2026009-008",
+      "code": "99213",
+      "contract_id": "NW-2026-009",
+      "expected_allowed": "110.76",
+      "label": "correct",
+      "line_id": "NW2026009-008-1",
+      "payer_allowed": "110.76",
+      "payment_date": "2026-11-13",
+      "planted_error": "none",
+      "recoverable": "0",
+      "service_date": "2026-09-27",
+      "variance": "0"
+    },
+    "NW2026009-008-2": {
+      "claim_id": "NW2026009-008",
+      "code": "64483",
+      "contract_id": "NW-2026-009",
+      "expected_allowed": "285.72",
+      "label": "correct",
+      "line_id": "NW2026009-008-2",
+      "payer_allowed": "285.72",
+      "payment_date": "2026-11-13",
+      "planted_error": "none",
+      "recoverable": "0",
+      "service_date": "2026-09-27",
+      "variance": "0"
+    },
+    "NW2026009-008-3": {
+      "claim_id": "NW2026009-008",
+      "code": "11042",
+      "contract_id": "NW-2026-009",
+      "expected_allowed": "87.34",
+      "label": "correct",
+      "line_id": "NW2026009-008-3",
+      "payer_allowed": "87.34",
+      "payment_date": "2026-11-13",
+      "planted_error": "none",
+      "recoverable": "0",
+      "service_date": "2026-09-27",
+      "variance": "0"
+    },
+    "NW2026009-009-1": {
+      "claim_id": "NW2026009-009",
+      "code": "99214",
+      "contract_id": "NW-2026-009",
+      "expected_allowed": "137.24",
+      "label": "correct",
+      "line_id": "NW2026009-009-1",
+      "payer_allowed": "137.24",
+      "payment_date": "2026-05-29",
+      "planted_error": "none",
+      "recoverable": "0",
+      "service_date": "2026-04-09",
+      "variance": "0"
+    },
+    "NW2026009-009-2": {
+      "claim_id": "NW2026009-009",
+      "code": "20610",
+      "contract_id": "NW-2026-009",
+      "expected_allowed": "70.73",
+      "label": "correct",
+      "line_id": "NW2026009-009-2",
+      "payer_allowed": "70.73",
+      "payment_date": "2026-05-29",
+      "planted_error": "none",
+      "recoverable": "0",
+      "service_date": "2026-04-09",
+      "variance": "0"
+    },
+    "NW2026009-010-1": {
+      "claim_id": "NW2026009-010",
+      "code": "99213",
+      "contract_id": "NW-2026-009",
+      "expected_allowed": "110.76",
+      "label": "underpaid",
+      "line_id": "NW2026009-010-1",
+      "payer_allowed": "101.53",
+      "payment_date": "2026-08-21",
+      "planted_error": "wrong_pct",
+      "recoverable": "9.23",
+      "service_date": "2026-06-27",
+      "variance": "9.23"
+    }
+  },
+  "manifest": {
+    "claim_lines": 219,
+    "contracts": 10,
+    "dataset": "holdout",
+    "generator_version": "1",
+    "labels": {
+      "correct": 142,
+      "denial_invalid": 14,
+      "denial_valid": 6,
+      "overpaid": 22,
+      "underpaid": 35
+    },
+    "purpose": "wording the extractor was never tuned on",
+    "seed": 4
+  }
+}
